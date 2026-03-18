@@ -16,7 +16,7 @@
 \maketitle
 
 % =========================
-\section*{1. Posibles titulo}
+\section{Posibles titulo}
 \begin{itemize}
     \item{Diseñar e implementar un esquema de datos estandarizado para integrar y
     diferenciar diagnósticos principales y secundarios en las bases de morbilidad del Hospital Susana López de Valencia,
@@ -42,7 +42,29 @@ morbilidad del hospital.
 \vspace{0.5cm}
 
 % =========================
-\section*{3. Problema concreto}
+
+
+
+\section{Justificación}
+El análisis de morbilidad hospitalaria constituye un proceso clave
+para la gestión clínica y administrativa, al permitir identificar el
+comportamiento de las enfermedades y apoyar la toma de decisiones. Sin embargo,
+el procedimiento vigente en el Hospital Susana López de Valencia elimina sistemáticamente los diagnósticos secundarios,
+depende de un único profesional, carece de criterios documentados y requiere 2 a 3 días de ejecución manual,
+lo que limita la trazabilidad, reproducibilidad y eficiencia del proceso. El presente proyecto propone la implementación de un
+\textit{pipeline} automatizado en Python, que estandariza los criterios de limpieza, conserva la información secundaria y mejora
+la eficiencia y trazabilidad del proceso. Esta solución aporta valor en tres dimensiones: \textbf{institucional}, al generar un
+perfil epidemiológico más completo; \textbf{técnica}, al reemplazar un proceso manual por uno automatizado y reproducible; y \textbf{académica},
+al aplicar conocimientos de ingeniería de sistemas en un contexto real con resultados medibles mediante métricas de calidad de datos.
+La viabilidad del proyecto se respalda en la disponibilidad de datos del primer trimestre de 2025, las herramientas tecnológicas establecidas y
+la responsabilidad directa del estudiante en la ejecución del proceso.
+
+\vspace{0.5cm}
+
+% ========================
+
+
+\section{Problema concreto}
 \textbf{Qué falla:} La limpieza que se realiza de los datos usados para el analisis y la posterior creación de reportes
 se reducen a \textit{80.00 - 10.000} filas debido a que el método de limpieza vigente desecha todos los diagnósticos secundarios. Se estima
 que cada paciente puede llegar a tener hasta \textbf{10 diagnósticos} secundarios. \\
@@ -59,14 +81,14 @@ falta de información para identificar patrones u comportamientos de calidad, to
 \vspace{0.5cm}
 
 % =========================
-\section*{4. Pregunta de investigación}
+\section{Pregunta de investigación}
 ¿Cómo diseñar e implementar un esquema de datos estandarizado para integrar diagnósticos principales y secundarios
 en los registros de morbilidad de un hospital bajo la clasificación CIE-10? \footnote{¿Puede que seamos mas específicos
 con el nombre del hospital en la pregunta de investigación?}
 \vspace{1cm}
 
 % =========================
-\section*{5. Idea central}
+\section{Idea central}
 Hacer el diseño y la implementación de un esquema y un pipeline que estandarice el proceso de filtrado de datos y sus resultados,
 con el fin de que se contemplen todos los diagnósticos, no solo los principales, y ayude a mejorar de manera
 considerable los análisis y reportes generados en base a estos. Encontrando patrones y comportamientos en
@@ -75,14 +97,11 @@ Y por consecuencia la mejora de toma de decisiones y el perfil epidemiólogico i
 \vspace{1cm}\footnote{La idea central podría limitarse a no hablar de patrones y comportamientos u toma de decisiones.
 Centrandose unicamente en la limpieza de los datos.}\\
 
-% =========================
-\section*{6. Hipótesis}
-Si se implementa \_\_\_\_\_ entonces \_\_\_\_\_ porque \_\_\_\_\_
 
 \vspace{1cm}
 
 % =========================
-\section*{7. Variables / métricas}
+\section{Variables / métricas}
 \begin{itemize}
     \item Métrica 1: Total de filas recibidas por mes.
     \item Métrica 2: Número y porcentaje de registros con diagnóstico principal vacío o inválido.
@@ -106,7 +125,7 @@ Si se implementa \_\_\_\_\_ entonces \_\_\_\_\_ porque \_\_\_\_\_
 
 
 % =========================
-\section*{8. Restricciones}
+\section{Restricciones}
 \begin{itemize}
     \item Acceso: El equipo no tiene acceso directo a la base de datos del hospital. Los datos son proporcionados mensualmente por el área de Sistemas mediante una copia cargada en un servidor habilitado para consultas.
     \item Tiempo: Los datos se reciben una vez al mes, lo que limita la posibilidad de realizar aclaraciones o consultas adicionales sobre periodos específicos.
@@ -114,5 +133,9 @@ Si se implementa \_\_\_\_\_ entonces \_\_\_\_\_ porque \_\_\_\_\_
     \item Datos disponibles: Solo se dispone de información correspondiente a enero, febrero y marzo de 2025, por lo que los resultados no pueden generalizarse a otros periodos sin validación adicional.
     \item Operación: El proceso de limpieza y estructuración de los datos depende de un único profesional, con criterios de aplicación que pueden estar basados en prácticas institucionales no documentadas.
 \end{itemize}
+
+% =========================
+
+
 
 \end{document}
