@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Identificación de la Bitácora}{2}{section.1}%
+\contentsline {section}{\numberline {2}Criterios de Registro}{2}{section.2}%
+\contentsline {section}{\numberline {3}Resumen de Cambios}{2}{section.3}%
+\contentsline {section}{\numberline {4}Registros Detallados}{2}{section.4}%
+\contentsline {section}{\numberline {5}Referencias}{3}{section.5}%
+\contentsline {section}{\numberline {6}Anexos}{3}{section.6}%

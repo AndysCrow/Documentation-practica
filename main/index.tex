@@ -1,0 +1,385 @@
+% ============================================================
+%  PLANTILLA ANTEPROYECTO – INVESTIGACIÓN APLICADA
+%  Corporación Universitaria Comfacauca – Unicomfacauca
+%  Normas APA 7.ª edición
+%
+%  CÓMO COMPILAR (orden recomendado en terminal):
+%    1. pdflatex  anteproyecto.tex
+%    2. biber     anteproyecto
+%    3. pdflatex  anteproyecto.tex
+%    4. pdflatex  anteproyecto.tex   (segunda pasada para referencias cruzadas)
+%
+%  Si tu editor es Overleaf, simplemente haz clic en "Recompile".
+% ============================================================
+
+% ------------------------------------------------------------
+%  CLASE DEL DOCUMENTO
+%  - 12pt  : tamaño de fuente base (APA recomienda 11-12 pt)
+%  - letterpaper : tamaño carta
+%  - oneside     : impresión de un solo lado
+% ------------------------------------------------------------
+\documentclass[12pt, letterpaper, oneside]{article}
+
+
+% ============================================================
+%  PAQUETES
+% ============================================================
+
+% --- Codificación e idioma ---
+\usepackage[utf8]{inputenc}       % Permite escribir tildes directamente
+\usepackage[T1]{fontenc}          % Fuentes con caracteres latinos
+\usepackage[spanish]{babel}       % Idioma español (seccionado, fechas, etc.)
+
+% --- Fuente: Times New Roman (requerida por APA) ---
+\usepackage{mathptmx}             % Equivalente a Times New Roman en LaTeX
+
+% --- Márgenes APA 7: 2.54 cm (1 pulgada) en todos los lados ---
+\usepackage[
+  top=2.54cm,
+  bottom=2.54cm,
+  left=2.54cm,
+  right=2.54cm
+]{geometry}
+
+% --- Interlineado ---
+\usepackage{setspace}
+\doublespacing                    % Doble espacio (norma APA 7)
+
+% --- Párrafos: sangría de primera línea ---
+\usepackage{indentfirst}          % Sangría en primer párrafo de cada sección
+\setlength{\parindent}{1.27cm}    % 0.5 pulgadas = 1.27 cm (APA 7)
+\setlength{\parskip}{0pt}         % Sin espacio extra entre párrafos
+
+% --- Encabezado y pie de página ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}                        % Limpia encabezado y pie predeterminados
+\fancyhead[R]{\thepage}           % Número de página arriba a la derecha (APA 7)
+\renewcommand{\headrulewidth}{0pt}% Sin línea decorativa en el encabezado
+
+% --- Hipervínculos (URLs en referencias) ---
+\usepackage[
+  hidelinks,                      % Sin recuadros de color en los enlaces
+  pdftitle={Título del Anteproyecto},
+  pdfauthor={Tu Nombre}
+]{hyperref}
+\usepackage{url}
+
+% --- Figuras y tablas ---
+\usepackage{graphicx}             % Para insertar imágenes con \includegraphics
+\usepackage{booktabs}             % Tablas con estilo profesional
+\usepackage{caption}              % Personalizar leyendas de figuras/tablas
+% Formato APA de leyenda: "Nota." en cursiva, tamaño 10 pt
+\captionsetup{
+  font=small,
+  labelfont=it,
+  labelsep=newline,
+  justification=raggedright,
+  singlelinecheck=false
+}
+
+% --- Listas ---
+\usepackage{enumitem}             % Control fino de listas con \begin{itemize}
+
+% --- Referencias con biblatex + biber (APA 7) ---
+\usepackage[
+  style=apa,          % Estilo APA automático
+  backend=biber,      % Motor de bibliografía (más moderno que bibtex)
+  sortcites=true,
+  sorting=nyt         % Ordena por Nombre, Año, Título
+]{biblatex}
+\addbibresource{referencias.bib}  % Vincula tu archivo .bib
+
+
+% ============================================================
+%  INICIO DEL DOCUMENTO
+% ============================================================
+\begin{document}
+
+
+% ------------------------------------------------------------
+%  PORTADA
+%  (La portada no lleva número de página)
+% ------------------------------------------------------------
+\thispagestyle{empty}             % Sin encabezado ni pie en la portada
+
+\begin{center}
+  \vspace*{2cm}
+
+  {\large \textbf{Título del Anteproyecto}} \\[0.5cm]  % <-- Cambia este título
+
+  \vspace{1.5cm}
+
+  {\normalsize Autores: Rodrigo Andres Realpe, Jose Luis Valencia Avirama} \\[0.3cm]    % <-- Tu nombre
+  {\normalsize Director: Nombre del Director} \\[0.3cm]
+  {\normalsize Programa: Ingeniería de Sistemas} \\[0.3cm]
+  {\normalsize Universidad: Corporación Universitaria Comfacauca} \\[0.3cm]
+  {\normalsize Popayán, Colombia} \\[0.3cm]
+  {\normalsize \the\year}                               % Año actual automático
+
+\end{center}
+
+\newpage
+
+
+% ------------------------------------------------------------
+%  TABLA DE CONTENIDO
+%  LaTeX la genera automáticamente con \tableofcontents.
+%  Se actualiza sola cada vez que compilas.
+% ------------------------------------------------------------
+\thispagestyle{empty}
+\tableofcontents
+\newpage
+
+% Desde aquí empieza la numeración de páginas
+\setcounter{page}{1}
+
+
+% ------------------------------------------------------------
+%  RESUMEN EJECUTIVO / ABSTRACT
+% ------------------------------------------------------------
+\begin{abstract}
+  % Escribe aquí un párrafo de 150–250 palabras que resuma:
+  % problema, objetivo, metodología y resultados esperados.
+  Escribe aquí tu resumen ejecutivo. Debe tener entre 150 y 250 palabras
+  y cubrir: el problema que aborda el proyecto, el objetivo general,
+  la metodología empleada y los resultados que se esperan obtener.
+  \\
+  
+  \begin{center}
+    \textbf{Palabras clave: }\textit{Aquí van las palabras clave, separdas por comas}
+  \end{center}
+\end{abstract}
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 1 – INTRODUCCIÓN Y PLANTEAMIENTO
+% ============================================================
+\section{Introducción y Planteamiento del Problema}
+% \section{} crea un capítulo numerado (1, 2, 3…).
+% \subsection{} crea una sección dentro del capítulo (1.1, 1.2…).
+% \subsubsection{} crea una subsección (1.1.1, 1.1.2…).
+% Todos aparecen automáticamente en la tabla de contenido.
+
+\subsection{Introducción}
+Escribe aquí el texto introductorio del proyecto.
+
+\subsection{Pregunta de Investigación}
+¿Cuál es la pregunta central que orienta esta investigación?
+
+\subsection{Planteamiento del Problema}
+Describe aquí el problema que motiva el proyecto. Puedes citar fuentes
+con \parencite{apellido2024} (formato APA entre paréntesis) o con
+\textcite{apellido2024} (formato APA integrado en la oración).
+
+\subsection{Justificación}
+Explica por qué es importante resolver este problema y qué valor aporta
+la investigación para la institución, la comunidad o la industria.
+
+\subsection{Objetivos}
+
+\subsubsection{Objetivo General}
+Redacta aquí el objetivo general del proyecto. Inicia con un verbo en
+infinitivo (p.\,ej., Diseñar, Desarrollar, Implementar).
+
+\subsubsection{Objetivos Específicos}
+% Lista numerada con \begin{enumerate}
+\begin{enumerate}[label=\arabic*.]   % Numeración 1. 2. 3.
+  \item Primer objetivo específico.
+  \item Segundo objetivo específico.
+  \item Tercer objetivo específico.
+  % Agrega o elimina ítems según necesites
+\end{enumerate}
+
+\subsection{Alcance y Limitaciones}
+Define hasta dónde llega el proyecto y cuáles son las restricciones o
+condiciones que acotan su desarrollo.
+
+\subsection{Hipótesis}
+% Esta sección es opcional. Si no aplica, puedes eliminarla o comentarla
+% poniendo % al inicio de cada línea.
+Plantea aquí la hipótesis del proyecto (cuando aplique).
+\parencite{hijji_multivocal_2021}
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 2 – MARCO TEÓRICO
+% ============================================================
+\section{Marco Teórico}
+
+\subsection{Antecedentes de la Investigación}
+Presenta investigaciones o proyectos previos relevantes para tu tema.
+
+\subsection{Estado del Arte}
+Describe el nivel de avance actual del conocimiento sobre el problema
+que abordas \parencite{autor2022}.
+
+\subsection{Fundamentación Teórica}
+Define y desarrolla los conceptos clave que sustentan el proyecto.
+
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 3 – ANÁLISIS DEL PROBLEMA
+% ============================================================
+\section{Análisis del Problema}
+
+\subsection{Análisis del Problema}
+Desarrolla aquí el análisis detallado del problema identificado.
+
+\subsection{Árbol de Problemas}
+% Para insertar una imagen usa:
+%   \includegraphics[width=\textwidth]{nombre_del_archivo.png}
+% Guarda la imagen en la misma carpeta que este archivo .tex.
+% Ejemplo:
+%
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=0.85\textwidth]{arbol_problemas.png}
+%   \caption{\textit{Nota.} Descripción del árbol de problemas.}
+%   \label{fig:arbol_problemas}
+% \end{figure}
+
+[Inserta aquí el diagrama del árbol de problemas]
+
+\subsection{Árbol de Objetivos}
+[Inserta aquí el diagrama del árbol de objetivos]
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 4 – METODOLOGÍA
+% ============================================================
+\section{Metodología}
+
+\subsection{Tipo de Estudio / Diseño de Investigación}
+Describe el enfoque metodológico (cuantitativo, cualitativo, mixto) y
+el tipo de investigación (exploratoria, descriptiva, experimental, etc.).
+
+\subsection{Población y Muestra}
+Caracteriza la población de estudio y explica el proceso de muestreo.
+
+\subsection{Técnicas e Instrumentos de Recolección de Datos}
+Describe las técnicas utilizadas (entrevistas, encuestas, observación,
+análisis documental, etc.) y los instrumentos asociados.
+
+\subsection{Procedimiento}
+Detalla paso a paso cómo se llevará a cabo la investigación.
+
+\subsection{Análisis de Datos}
+Explica cómo procesarás e interpretarás los datos recolectados.
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 5 – PLAN DE TRABAJO / CRONOGRAMA
+% ============================================================
+\section{Plan de Trabajo y Cronograma}
+
+Describe las fases y actividades del proyecto. Puedes insertar aquí una
+tabla o diagrama de Gantt como figura (ver instrucciones en el
+Capítulo~3 para insertar imágenes).
+
+[Inserta aquí la tabla de actividades con fechas y responsables]
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 6 – PRESUPUESTO
+% ============================================================
+\section{Presupuesto}
+
+\subsection{Recursos Materiales}
+Lista los materiales, equipos y licencias necesarios para el proyecto.
+
+\subsection{Recursos Humanos}
+Describe el equipo de trabajo y sus roles.
+
+\subsection{Costos Estimados}
+[Inserta aquí la tabla de costos estimados]
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 7 – MATRIZ DE RIESGOS
+% ============================================================
+\section{Matriz de Riesgos}
+
+Identifica los principales riesgos del proyecto, su probabilidad de
+ocurrencia, su impacto potencial y las estrategias de mitigación.
+
+[Inserta aquí la tabla de matriz de riesgos]
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 8 – RESULTADOS ESPERADOS E IMPACTO
+% ============================================================
+\section{Resultados Esperados e Impacto}
+
+\subsection{Productos o Entregables Esperados}
+% Lista de viñetas con \begin{itemize}
+\begin{itemize}
+  \item Primer entregable esperado.
+  \item Segundo entregable esperado.
+  % Agrega o elimina ítems según necesites
+\end{itemize}
+
+\subsection{Beneficios para la Institución, Comunidad o Industria}
+Describe el impacto positivo que tendrá el proyecto al concluirse.
+
+\newpage
+
+
+% ============================================================
+%  CAPÍTULO 12 – CRONOGRAMA DE IMPLEMENTACIÓN
+%  (Numeración según la guía institucional)
+% ============================================================
+\section{Cronograma de Implementación}
+
+[Inserta aquí el diagrama de Gantt u otra representación gráfica]
+
+\newpage
+
+
+% ============================================================
+%  REFERENCIAS BIBLIOGRÁFICAS
+%  biblatex las genera automáticamente desde referencias.bib.
+%  Solo aparecen las fuentes que hayas citado en el texto.
+% ============================================================
+\section{Referencias Bibliográficas}
+\printbibliography[heading=none]  % "heading=none" evita el título doble
+
+\newpage
+
+
+% ============================================================
+%  ANEXOS
+%  Etiquétalos como Anexo A, Anexo B, etc. (norma APA 7).
+%  Menciona cada anexo en el texto antes de presentarlo.
+% ============================================================
+\section*{Anexos}              % El * evita que "Anexos" aparezca numerado
+\addcontentsline{toc}{section}{Anexos}  % Lo agrega a la tabla de contenido
+
+\subsection*{Anexo A – Nombre del Primer Anexo}
+Descripción o contenido del primer anexo.
+
+\subsection*{Anexo B – Nombre del Segundo Anexo}
+Descripción o contenido del segundo anexo.
+
+
+% ============================================================
+%  FIN DEL DOCUMENTO
+% ============================================================
+\end{document}

@@ -1,0 +1,255 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{apellido2024}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=75c8438d77d5849593361c7f3ad493f8}{%
+           family={Apellido},
+           familyi={A\bibinitperiod},
+           given={Nombre},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b58f1252ebfd2d73de2397a81ac5aec5}{%
+           family={OtroAutor},
+           familyi={O\bibinitperiod},
+           given={Nombre},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{fullhash}{0d4d75772650c26c69c4434184c78145}
+      \strng{bibnamehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{authorbibnamehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{authornamehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{authorfullhash}{0d4d75772650c26c69c4434184c78145}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nombre de la Revista}
+      \field{number}{2}
+      \field{title}{Título del artículo}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{pages}{45\bibrangedash 67}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.xxxx/xxxxxxx
+      \endverb
+    \endentry
+    \entry{10.1145/3708657.3708773}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=dcb4cd18fc7c10ceacd37882c2b623c6}{%
+           family={Blancaflor},
+           familyi={B\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16a15411a6589534401b14a32683485b}{%
+           family={Bernardo},
+           familyi={B\bibinitperiod},
+           given={Ronald},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=795221b3495b5cdb65a1123b6487c3c8}{%
+           family={Aquino},
+           familyi={A\bibinitperiod},
+           given={Jerry\bibnamedelima III},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fda2472faef23a1f3028153405a3be9a}{%
+           family={Bagsit},
+           familyi={B\bibinitperiod},
+           given={Sean\bibnamedelima Andrei},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6282576239c12ba3508ef5970a25977}{%
+           family={Gaddi},
+           familyi={G\bibinitperiod},
+           given={Chelsea},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0432866d2759468292ea25ce32871af1}{%
+           family={Sison},
+           familyi={S\bibinitperiod},
+           given={Anton\bibnamedelima Gabriel},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{585e6dfc7bd333aab5185a0413440abe}
+      \strng{fullhash}{11e6f34bb49af96857140182c99f4ef0}
+      \strng{bibnamehash}{11e6f34bb49af96857140182c99f4ef0}
+      \strng{authorbibnamehash}{11e6f34bb49af96857140182c99f4ef0}
+      \strng{authornamehash}{585e6dfc7bd333aab5185a0413440abe}
+      \strng{authorfullhash}{11e6f34bb49af96857140182c99f4ef0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In today's digital landscape, businesses face increasing threats to their online security, particularly in collaborative environments such as Google Workspace. The focus of this case study is securing collaborative content creation within the Google Workspace products. The effectiveness of DocuSign, a protection tool for social engineering, impersonation, will be used and examined as a possible tool for protected data authentication. With the growing vulnerability of the digital workspace of Google, Nightfall AI is a Data Loss Prevention (DLP) measure in a collaborative environment. As well as its downsides when it is not implemented.}
+      \field{isbn}{9798400717444}
+      \field{journaltitle}{Proceedings of the 2024 10th International Conference on Communication and Information Processing}
+      \field{series}{ICCIP '24}
+      \field{title}{Enhancing Security for Collaborative Content Creation in Google Workspace: A Case Study}
+      \field{year}{2025}
+      \field{pages}{721\bibrangedash 727}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/3708657.3708773
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3708657.3708773
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3708657.3708773
+      \endverb
+      \keyw{DLP,data authentication,social engineering}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{apellido2024}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=75c8438d77d5849593361c7f3ad493f8}{%
+           family={Apellido},
+           familyi={A\bibinitperiod},
+           given={Nombre},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b58f1252ebfd2d73de2397a81ac5aec5}{%
+           family={OtroAutor},
+           familyi={O\bibinitperiod},
+           given={Nombre},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{fullhash}{0d4d75772650c26c69c4434184c78145}
+      \strng{bibnamehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{authorbibnamehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{authornamehash}{0d4d75772650c26c69c4434184c78145}
+      \strng{authorfullhash}{0d4d75772650c26c69c4434184c78145}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nombre de la Revista}
+      \field{number}{2}
+      \field{title}{Título del artículo}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{pages}{45\bibrangedash 67}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.xxxx/xxxxxxx
+      \endverb
+    \endentry
+    \entry{10.1145/3708657.3708773}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=dcb4cd18fc7c10ceacd37882c2b623c6}{%
+           family={Blancaflor},
+           familyi={B\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16a15411a6589534401b14a32683485b}{%
+           family={Bernardo},
+           familyi={B\bibinitperiod},
+           given={Ronald},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=795221b3495b5cdb65a1123b6487c3c8}{%
+           family={Aquino},
+           familyi={A\bibinitperiod},
+           given={Jerry\bibnamedelima III},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fda2472faef23a1f3028153405a3be9a}{%
+           family={Bagsit},
+           familyi={B\bibinitperiod},
+           given={Sean\bibnamedelima Andrei},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6282576239c12ba3508ef5970a25977}{%
+           family={Gaddi},
+           familyi={G\bibinitperiod},
+           given={Chelsea},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0432866d2759468292ea25ce32871af1}{%
+           family={Sison},
+           familyi={S\bibinitperiod},
+           given={Anton\bibnamedelima Gabriel},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{585e6dfc7bd333aab5185a0413440abe}
+      \strng{fullhash}{11e6f34bb49af96857140182c99f4ef0}
+      \strng{bibnamehash}{11e6f34bb49af96857140182c99f4ef0}
+      \strng{authorbibnamehash}{11e6f34bb49af96857140182c99f4ef0}
+      \strng{authornamehash}{585e6dfc7bd333aab5185a0413440abe}
+      \strng{authorfullhash}{11e6f34bb49af96857140182c99f4ef0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In today's digital landscape, businesses face increasing threats to their online security, particularly in collaborative environments such as Google Workspace. The focus of this case study is securing collaborative content creation within the Google Workspace products. The effectiveness of DocuSign, a protection tool for social engineering, impersonation, will be used and examined as a possible tool for protected data authentication. With the growing vulnerability of the digital workspace of Google, Nightfall AI is a Data Loss Prevention (DLP) measure in a collaborative environment. As well as its downsides when it is not implemented.}
+      \field{isbn}{9798400717444}
+      \field{journaltitle}{Proceedings of the 2024 10th International Conference on Communication and Information Processing}
+      \field{series}{ICCIP '24}
+      \field{title}{Enhancing Security for Collaborative Content Creation in Google Workspace: A Case Study}
+      \field{year}{2025}
+      \field{pages}{721\bibrangedash 727}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/3708657.3708773
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3708657.3708773
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3708657.3708773
+      \endverb
+      \keyw{DLP,data authentication,social engineering}
+    \endentry
+  \enddatalist
+  \missing{autor2022}
+  \missing{hijji_multivocal_2021}
+\endrefsection
+\endinput
+

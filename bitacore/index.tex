@@ -1,0 +1,134 @@
+\documentclass[12pt]{article}
+
+% ------------------------
+% PAQUETES
+% ------------------------
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+
+% APA con biblatex (gestor de referencias)
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{referencias.bib}
+
+% Márgenes tipo APA
+\geometry{margin=2.54cm}
+\setstretch{1.5}
+
+% ------------------------
+% PORTADA (ajusta a tu formato original)
+% ------------------------
+\newcommand{\portada}{
+\begin{titlepage}
+\centering
+
+\vspace*{3cm}
+
+{\Large \textbf{BITÁCORA DE CAMBIOS Y DECISIONES}}\\[1.5cm]
+
+{\large Nombre del Proyecto}\\[1cm]
+
+{\large Autor(es)}\\
+{\large Programa Académico}\\
+{\large Universidad}\\[1cm]
+
+{\large Director}\\[2cm]
+
+{\large \today}
+
+\vfill
+
+\end{titlepage}
+}
+
+% ------------------------
+% COMANDO REUTILIZABLE
+% ------------------------
+\newcommand{\entradaBitacora}[7]{
+\section*{Registro}
+\textbf{Fecha:} #1\\
+\textbf{Elemento afectado:} #2\\
+\textbf{Tipo de cambio:} #3\\
+\textbf{Descripción:} #4\\
+\textbf{Justificación:} #5\\
+\textbf{Impacto:} #6\\
+\textbf{Responsable:} #7\\
+\hrule
+\vspace{0.5cm}
+}
+
+% ------------------------
+% DOCUMENTO
+% ------------------------
+\begin{document}
+
+\portada
+
+\tableofcontents
+\newpage
+
+% ------------------------
+\section{Identificación de la Bitácora}
+\begin{itemize}
+\item Proyecto:
+\item Versión:
+\item Fecha de inicio:
+\item Responsable:
+\end{itemize}
+
+% ------------------------
+\section{Criterios de Registro}
+Cada entrada debe registrar cualquier modificación, adición o eliminación en la estructura de datos o sistema, incluyendo decisiones técnicas.
+
+% ------------------------
+\section{Resumen de Cambios}
+
+
+
+\begin{longtable}{|p{2cm}|p{3cm}|p{3cm}|p{6cm}|}
+\hline
+Fecha & Elemento & Tipo & Descripción \\
+\hline
+2026-01-01 & Tabla usuarios & Modificación & Cambio de tipo de dato \\
+\hline
+\end{longtable}
+
+% ------------------------
+\section{Registros Detallados}
+
+\entradaBitacora
+{2026-01-01}
+{Tabla usuarios}
+{Modificación}
+{Se cambió el tipo de dato de edad de INT a SMALLINT}
+{Optimización de almacenamiento}
+{Afecta validaciones}
+{Rodrigo}
+
+
+
+\entradaBitacora
+{2026-01-02}
+{Columna email}
+{Adición}
+{Se agregó restricción UNIQUE}
+{Evitar duplicados}
+{Puede generar errores en inserciones}
+{Rodrigo}
+
+% ------------------------
+\section{Referencias}
+\printbibliography
+
+% ------------------------
+\section{Anexos}
+
+\end{document}
