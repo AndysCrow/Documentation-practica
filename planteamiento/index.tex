@@ -1,0 +1,118 @@
+\documentclass[12pt]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{array}
+
+\geometry{margin=2.5cm}
+
+\title{Idea anteproyecto}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+% =========================
+\section*{1. Posibles titulo}
+\begin{itemize}
+    \item{Diseñar e implementar un esquema de datos estandarizado para integrar y
+    diferenciar diagnósticos principales y secundarios en las bases de morbilidad del Hospital Susana López de Valencia,
+    mediante un proceso de limpieza y clasificación.}
+\end{itemize}
+
+% =========================
+\section*{2. Contexto del problema}
+El hospital Susana López de Valencia mensualmente recolecta y analiza datos que contienen los diagnósticos principales de los pacientes en las diferentes áreas.
+Estos análisis son realizados a partir de unos reportes que se generan mensualmente para monitorear el comportamiento
+de los diagnósticos en las diferentes áreas del hospital \textit{—urgencias, hospitalización, consulta ambulatoria,
+especialidades médicas, etc.—}.
+Los reportes son generados a partir de los datos almacenados en el \textbf{sistema institucional de información}.
+Los análisis de estas reuniones mensuales, no solo son fundamentales para la toma de decisiones del hospital.
+También son usados para la elaboración del perfil epidemiológico anual.\\
+
+Sin embargo al momento de la generación de los reportes, los datos son faltos de claridad, estructura y estandarización.
+Los diagnosticos secundarios se desechan, dejando unicamente los primarios. Lo que afecta significativamente la calidad de los reportes y por consecuencia la toma de desiciónes con respecto a la
+morbilidad del hospital.
+
+
+
+\vspace{0.5cm}
+
+% =========================
+\section*{3. Problema concreto}
+\textbf{Qué falla:} La limpieza que se realiza de los datos usados para el analisis y la posterior creación de reportes
+se reducen a \textit{80.00 - 10.000} filas debido a que el método de limpieza vigente desecha todos los diagnósticos secundarios. Se estima
+que cada paciente puede llegar a tener hasta \textbf{10 diagnósticos} secundarios. \\
+
+\vspace{0.3cm}
+\textbf{Dónde ocurre:} Este problema ocurre en la limpieza de datos, se desechan los datos secundarios, e incluso despues de dicha
+limpieza se informa que llegan datos con escasa calidad. \\
+
+\vspace{0.3cm}
+\textbf{Consecuencia:} Al momento de analizar los datos en las reuniones como comités, la calidad de dichos datos
+y la falta de los datos secundarios presenta un vació importante para los siguientes aspectos:
+\textit{análisis carente de los diagnósticos secundarios, falta de calidad en el monitoreo del comportamiento de morbilidad,
+falta de información para identificar patrones u comportamientos de calidad, toma de decisiones afectada por los anteriores puntos}.
+\vspace{0.5cm}
+
+% =========================
+\section*{4. Pregunta de investigación}
+¿Cómo diseñar e implementar un esquema de datos estandarizado para integrar diagnósticos principales y secundarios
+en los registros de morbilidad de un hospital bajo la clasificación CIE-10? \footnote{¿Puede que seamos mas específicos
+con el nombre del hospital en la pregunta de investigación?}
+\vspace{1cm}
+
+% =========================
+\section*{5. Idea central}
+Hacer el diseño y la implementación de un esquema y un pipeline que estandarice el proceso de filtrado de datos y sus resultados,
+con el fin de que se contemplen todos los diagnósticos, no solo los principales, y ayude a mejorar de manera
+considerable los análisis y reportes generados en base a estos. Encontrando patrones y comportamientos en
+el porqué se enferma la población.
+Y por consecuencia la mejora de toma de decisiones y el perfil epidemiólogico institucional anual.
+\vspace{1cm}\footnote{La idea central podría limitarse a no hablar de patrones y comportamientos u toma de decisiones.
+Centrandose unicamente en la limpieza de los datos.}\\
+
+% =========================
+\section*{6. Hipótesis}
+Si se implementa \_\_\_\_\_ entonces \_\_\_\_\_ porque \_\_\_\_\_
+
+\vspace{1cm}
+
+% =========================
+\section*{7. Variables / métricas}
+\begin{itemize}
+    \item Métrica 1: Total de filas recibidas por mes.
+    \item Métrica 2: Número y porcentaje de registros con diagnóstico principal vacío o inválido.
+    \item Métrica 3: Número y porcentaje de registros con diagnósticos secundarios presentes y ausentes.
+    \item Métrica 4: Promedio de diagnósticos secundarios por paciente.
+    \item Métrica 5: Número de registros identificados como Folio 64 y Folio 64W.
+    \item Métrica 6: Variables con valores atípicos detectados (por ejemplo, edades fuera de rango lógico).
+    \item Métrica 7: Porcentaje de completitud por variable obligatoria (diagnóstico, edad, sexo, servicio de atención).
+    \item Métrica 8: Filas eliminadas por cada criterio aplicado, con porcentaje.
+    \item Métrica 9: Filas eliminadas específicamente por Folio 64 y Folio 64W.
+    \item Métrica 10: Filas con códigos CIE-10 inválidos corregidos o eliminados, con justificación.
+    \item Métrica 11: Filas con valores atípicos tratados y criterio aplicado.
+    \item Métrica 12: Diagnósticos secundarios retenidos vs eliminados según proceso habitual.
+    \item Métrica 13: Tiempo de ejecución del pipeline automatizado.
+    \item Métrica 14: Porcentaje de completitud del esquema final por variable obligatoria.
+    \item Métrica 15: Número de pacientes con al menos un diagnóstico secundario integrado.
+    \item Métrica 16: Distribución de diagnósticos por grandes causas de morbilidad (principales vs principales más secundarios).
+    \item Métrica 17: Porcentaje de registros válidos según reglas de calidad RC01 a RC06 antes y después del proceso.
+    \item Métrica 18: Proporción de diagnósticos principales vs secundarios en el esquema final.
+\end{itemize}
+
+
+% =========================
+\section*{8. Restricciones}
+\begin{itemize}
+    \item Acceso: El equipo no tiene acceso directo a la base de datos del hospital. Los datos son proporcionados mensualmente por el área de Sistemas mediante una copia cargada en un servidor habilitado para consultas.
+    \item Tiempo: Los datos se reciben una vez al mes, lo que limita la posibilidad de realizar aclaraciones o consultas adicionales sobre periodos específicos.
+    \item Alcance: El proyecto se centra exclusivamente en la fase de preparación y estructuración de datos, sin realizar análisis clínicos ni conclusiones epidemiológicas.
+    \item Datos disponibles: Solo se dispone de información correspondiente a enero, febrero y marzo de 2025, por lo que los resultados no pueden generalizarse a otros periodos sin validación adicional.
+    \item Operación: El proceso de limpieza y estructuración de los datos depende de un único profesional, con criterios de aplicación que pueden estar basados en prácticas institucionales no documentadas.
+\end{itemize}
+
+\end{document}
