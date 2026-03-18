@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber index"] 0 "index.bcf" "index.bbl" "index" 1773806310.76148 -1
-  "index.bcf" 1773806310.68821 132876 13072c71fc39cd777cc76b0826bd39f5 "pdflatex"
+["biber index"] 0 "index.bcf" "index.bbl" "index" 1773807567.4164 -1
+  "index.bcf" 1773807567.32987 132876 13072c71fc39cd777cc76b0826bd39f5 "pdflatex"
   "referencias.bib" 1773805820.96834 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "index.bbl"
   "index.blg"
   (rewritten before read)
-["pdflatex"] 1773806309.42404 "/home/andres-crow/LaTeX/Proyect/bitacore/index.tex" "index.pdf" "index" 1773806310.76199 0
+["pdflatex"] 1773807566.03698 "/home/andres-crow/LaTeX/Proyect/bitacore/index.tex" "index.pdf" "index" 1773807567.41705 0
   "/etc/texmf/web2c/texmf.cnf" 1763613912.74862 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/andres-crow/LaTeX/Proyect/bitacore/index.tex" 1773806307.83324 2595 547a7acfd773176701be475433b8a201 ""
+  "/home/andres-crow/LaTeX/Proyect/bitacore/index.tex" 1773807565.70588 2623 96e7c9147fd1451ee300de655787f72f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -97,12 +97,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772914263.90012 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772914301 8213475 ffe02570c1d88bbabbbd14e2054b3ad0 ""
-  "index.aux" 1773806310.68321 1258 733ef5cb1b29cb591618ba52637b8af9 "pdflatex"
+  "index.aux" 1773807567.32487 1258 733ef5cb1b29cb591618ba52637b8af9 "pdflatex"
   "index.bbl" 1773805820.10934 466 ee04f40f768daeed26442158e95aba61 "biber index"
-  "index.out" 1773806310.68621 813 be12c54da667b72ec499a6d270a038b4 "pdflatex"
-  "index.run.xml" 1773806310.68962 2367 8c4e81ea659c6dc6b9e55cc6687cd17d "pdflatex"
-  "index.tex" 1773806307.83324 2595 547a7acfd773176701be475433b8a201 ""
-  "index.toc" 1773806310.68962 473 32ceda816323a817aed9b9317fcfa8cb "pdflatex"
+  "index.out" 1773807567.32787 813 be12c54da667b72ec499a6d270a038b4 "pdflatex"
+  "index.run.xml" 1773807567.33213 2367 8c4e81ea659c6dc6b9e55cc6687cd17d "pdflatex"
+  "index.tex" 1773807565.70588 2623 96e7c9147fd1451ee300de655787f72f ""
+  "index.toc" 1773807567.33213 473 32ceda816323a817aed9b9317fcfa8cb "pdflatex"
   (generated)
   "index.aux"
   "index.bcf"
