@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1773865534.47787 "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" "index.pdf" "index" 1773865534.80733 0
+["pdflatex"] 1773866108.33724 "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" "index.pdf" "index" 1773866108.7037 0
   "/etc/texmf/web2c/texmf.cnf" 1763613912.74862 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" 1773865533.98961 8314 2e6a59b8b00d58b5aba70c3c66b7b052 ""
+  "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" 1773866108.16111 8488 c35fb55ee00b7a07b12bd40fd426238a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -40,8 +40,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772914263.90012 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772914301 8213475 ffe02570c1d88bbabbbd14e2054b3ad0 ""
-  "index.aux" 1773865534.77761 928 9ec1860138d86fb6b940b7a33044ba35 "pdflatex"
-  "index.tex" 1773865533.98961 8314 2e6a59b8b00d58b5aba70c3c66b7b052 ""
+  "index.aux" 1773866108.67011 928 2118adb58006c43a8d2769d2ee706412 "pdflatex"
+  "index.tex" 1773866108.16111 8488 c35fb55ee00b7a07b12bd40fd426238a ""
   (generated)
   "index.aux"
   "index.log"
