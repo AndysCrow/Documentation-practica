@@ -6,6 +6,7 @@
 \usepackage{setspace}
 \usepackage{times}
 \usepackage{indentfirst}
+\usepackage{graphicx}
 
 \geometry{margin=2.54cm}
 \setlength{\parindent}{1.27cm}
@@ -42,7 +43,7 @@ El procedimiento vigente en el \textbf{Hospital Susana López de Valencia} estab
 
 La institución planea realizar un perfilamiento epidemiológico avanzado, lo que requiere una base de datos limpia, completa y estructurada que incluya todos los diagnósticos. Este proyecto provee exactamente ese insumo mediante un proceso automatizado.
 
-Actualmente, el proceso depende de un solo profesional, requiere entre dos y tres días de ejecución manual y carece de trazabilidad sistemática, lo que limita su auditoría, reproducibilidad y escalabilidad futura.\footnote{La fuente de este dato, se encuentra en la ausencia de los pasos registrados en el documento "PROCEDIMIENTO MORBILIDAD" del hospital}
+Actualmente, el proceso depende de un solo profesional, requiere entre dos y tres días de ejecución manual y carece de trazabilidad sistemática, lo que limita su auditoría, reproducibilidad y escalabilidad futura.\footnote{La fuente de este dato, se valido por ausencia de lo mencionado en los pasos registrados en el documento "PROCEDIMIENTO MORBILIDAD" proporcionado por el hospital}
 
 El proyecto se justifica por tres razones: en la dimensión institucional, porque permite estandarizar la limpieza de datos y conservar los diagnósticos secundarios; en la dimensión técnica, porque automatiza el proceso mediante \textit{Python}, aumentando eficiencia, trazabilidad y reproducibilidad; y en la dimensión académica, porque aplica conocimientos de ingeniería de sistemas en un contexto real, generando un producto tangible y medible.
 
@@ -57,6 +58,24 @@ El proyecto se justifica por tres razones: en la dimensión institucional, porqu
 \section*{Pregunta de investigación}
 
 ¿Cómo diseñar e implementar un pipeline y esquema de datos estandarizado para integrar todos los diagnósticos en los registros de morbilidad del hospital Susana Lopez de Valencia bajo la clasificación CIE-10?
+
+\section*{Objetivos}
+
+\textbf{Objetivo general:}
+
+Diseñar e implementar un pipeline de limpieza y un esquema de datos estandarizado para la integración y diferenciación de diagnósticos principales y secundarios en las bases de datos de morbilidad del Hospital Susana López de Valencia, mediante criterios documentados y trazables alineados con la taxonomía institucional CIE-10 de grandes causas y subcausas clínicas, que mejore la calidad y completitud de la información disponible para el análisis epidemiológico institucional.
+
+\vspace{0.5cm}
+
+\textbf{Objetivos específicos:}
+
+\begin{itemize}
+    \item Caracterizar la estructura actual de las bases de datos de morbilidad institucional correspondientes al primer trimestre de 2025 mediante un análisis exploratorio que identifique variables, tipos de datos, inconsistencias, valores atípicos, y el estado de registro de diagnósticos principales y secundarios frente al conjunto mínimo de variables definido en el procedimiento institucional.
+    
+    \item Definir e implementar un pipeline de limpieza estandarizado y trazable en Python y Jupyter Notebook, aplicando criterios documentados que incluyan la eliminación de registros Folio 64 y Folio 64W, la depuración de duplicados por número de ingreso, el tratamiento de valores atípicos, la validación de códigos CIE-10, y la retención de diagnósticos secundarios, con registro sistemático de cada decisión en una bitácora.
+    
+    \item Diseñar e implementar un esquema de datos consolidado que integre diagnósticos principales y hasta diez diagnósticos secundarios por paciente, clasificados según la taxonomía institucional de grandes causas y subcausas clínicas CIE-10, y validarlo mediante métricas de calidad que evidencien mejoras en completitud, consistencia y validez frente al estado inicial.
+\end{itemize}
 
 \section*{Idea central}
 
@@ -95,5 +114,13 @@ futuros procesos del hospital que necesiten datos limpios y completos
     \item Datos disponibles: Solo se dispone de información correspondiente a enero, febrero y marzo de 2025, por lo que los resultados no pueden generalizarse a otros periodos sin validación adicional.
     \item Operación: El proceso de limpieza y estructuración depende de un único profesional cuya ejecución técnica no está documentada de forma replicable, lo que puede generar variaciones entre ciclos de ejecución.
 \end{itemize}
+
+\section*{Arbol de problemas}
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Arbol de problemas.png} % reemplaza con el nombre de tu imagen
+    \caption{Árbol de problemas del Hospital Susana López de Valencia.}
+    \label{fig:arbol_problemas}
+\end{figure}
 
 \end{document}
