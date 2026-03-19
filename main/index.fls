@@ -1,9 +1,9 @@
-PWD /home/andres-crow/LaTeX/Third-Template
+PWD /home/andres-crow/LaTeX/Proyect/main
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/andres-crow/LaTeX/Third-Template/index.tex
+INPUT /home/andres-crow/LaTeX/Proyect/main/index.tex
 OUTPUT index.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls

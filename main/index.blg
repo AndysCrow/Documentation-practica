@@ -1,0 +1,20 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'index.blg'
+[45] biber:340> INFO - === Wed Mar 18, 2026, 16:37:37
+[58] Biber.pm:419> INFO - Reading 'index.bcf'
+[103] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[115] Biber.pm:4419> INFO - Processing section 0
+[122] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[123] bibtex.pm:1713> INFO - LaTeX decoding ...
+[127] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[153] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[153] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[153] Biber.pm:4239> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'es-ES'
+[159] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[159] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[159] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'es-ES'
+[161] bbl.pm:660> INFO - Writing 'index.bbl' with encoding 'UTF-8'
+[162] bbl.pm:763> INFO - Output to index.bbl
+[162] Biber.pm:131> WARN - I didn't find a database entry for 'hijji_multivocal_2021' (section 0)
+[162] Biber.pm:131> WARN - I didn't find a database entry for 'autor2022' (section 0)
+[162] Biber.pm:133> INFO - WARNINGS: 2

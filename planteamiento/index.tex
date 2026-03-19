@@ -3,14 +3,21 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
-\usepackage{array}
+\usepackage{setspace}
+\usepackage{times}
+\usepackage{indentfirst}
 
-\geometry{margin=2.5cm}
+\geometry{margin=2.54cm}
+\setlength{\parindent}{1.27cm}
+\doublespacing
 
-\title{Idea anteproyecto}
-\author{Rodrigo Andres Realpe\\Luis Fernando Vivas Fernandez\\ \\ Corporación
-Universitaria Comfacauca - Unicomfacauca \\ \\
-Docente:\\ Oscar Andres Angulo Lopez}
+\title{Idea de Anteproyecto}
+\author{
+Rodrigo Andres Realpe Chilito \\
+Luis Fernando Vivas Fernandez \\
+Corporación Universitaria Comfacauca - Unicomfacauca \\
+Docente: Oscar Andres Angulo Lopez
+}
 \date{Marzo 2026}
 
 \begin{document}
@@ -19,93 +26,45 @@ Docente:\\ Oscar Andres Angulo Lopez}
 
 \newpage
 
-% =========================
-\section{Posibles titulo}
-\begin{itemize}
-    \item{Diseñar e implementar un esquema de datos estandarizado para integrar y
-    diferenciar diagnósticos principales y secundarios en las bases de morbilidad del Hospital Susana López de Valencia,
-    mediante un proceso de limpieza y clasificación.}
-\end{itemize}
+\section*{Posible título}
 
-% =========================
-\section*{2. Contexto del problema}
-El hospital Susana López de Valencia mensualmente recolecta y analiza datos que contienen los diagnósticos principales de los pacientes en las diferentes áreas.
-Estos análisis son realizados a partir de unos reportes que se generan mensualmente para monitorear el comportamiento
-de los diagnósticos en las diferentes áreas del hospital \textit{—urgencias, hospitalización, consulta ambulatoria,
-especialidades médicas, etc.—}.
-Los reportes son generados a partir de los datos almacenados en el \textbf{sistema institucional de información}.
-Los análisis de estas reuniones mensuales, no solo son fundamentales para la toma de decisiones del hospital.
-También son usados para la elaboración del perfil epidemiológico anual.\\
+Diseñar e implementar un pipeline y un esquema de datos estandarizado para integrar y diferenciar diagnósticos principales y secundarios en la morbilidad del Hospital Susana López de Valencia, mediante limpieza y clasificación.
 
-Sin embargo al momento de la generación de los reportes, los datos son faltos de claridad, estructura y estandarización.
-Los diagnosticos secundarios se desechan, dejando unicamente los primarios. Lo que afecta significativamente la calidad de los reportes y por consecuencia la toma de desiciónes con respecto a la
-morbilidad del hospital.
+\section*{Contexto del problema}
 
+El Hospital Susana López de Valencia mensualmente recolecta y analiza datos que contienen los diagnósticos principales de los pacientes en las diferentes áreas. Estos datos se recopilan, almacenan, analizan y se presentan de acuerdo con los lineamientos vigentes \textbf{Big Data SLV-SI-47 versión 0} y \textbf{Minería de Datos SLV-SI-16 versión 2} de la institución. Esto se genera mensualmente para monitorear el comportamiento de los diagnósticos en las diferentes áreas del hospital (urgencias, hospitalización, consulta ambulatoria, especialidades médicas, etc.). Los reportes son generados a partir de los datos almacenados en el sistema institucional de información, llamado \textbf{Dinámica Gerencial}. Los análisis de estas reuniones mensuales no solo son fundamentales para la toma de decisiones del hospital. También son usados para la elaboración del perfil epidemiológico anual.
 
+Se sabe que la base de datos que recoge los diferentes diagnósticos de cada área llega a tener entre \textbf{160.000-200.000} diagnósticos. Además, cada paciente puede tener hasta 10 diagnósticos secundarios. Sin embargo, los diagnósticos secundarios se desechan, dejando únicamente los primarios y reduciendo la cantidad de datos a \textbf{8.000-10.000}, teniendo en cuenta que los folios 64 y 64W sí o sí deben ser desechados. Esto reduce en una gran cantidad los datos de los diagnósticos que serán analizados y afecta significativamente la calidad de los reportes y, por consecuencia, la toma de decisiones con respecto a la morbilidad del hospital.
 
-\vspace{0.5cm}
+\section*{Justificación}
 
-% =========================
+El procedimiento vigente en el \textbf{Hospital Susana López de Valencia} establece lineamientos para recolectar, depurar y clasificar diagnósticos según la \textit{CIE-10}. Sin embargo, dicho procedimiento presenta una limitación importante: elimina sistemáticamente los diagnósticos secundarios, conservando únicamente el diagnóstico principal, aun cuando un paciente puede tener hasta diez secundarios en un mes. Esto impide capturar la totalidad de los patrones relevantes de la población atendida.
 
+La institución planea realizar un perfilamiento epidemiológico avanzado, lo que requiere una base de datos limpia, completa y estructurada que incluya todos los diagnósticos. Este proyecto provee exactamente ese insumo mediante un proceso automatizado.
 
+Actualmente, el proceso depende de un solo profesional, requiere entre dos y tres días de ejecución manual y carece de trazabilidad sistemática, lo que limita su auditoría, reproducibilidad y escalabilidad futura.\footnote{La fuente de este dato, se encuentra en la ausencia de los pasos registrados en el documento "PROCEDIMIENTO MORBILIDAD" del hospital}
 
-\section{Justificación}
-El análisis de morbilidad hospitalaria constituye un proceso clave
-para la gestión clínica y administrativa, al permitir identificar el
-comportamiento de las enfermedades y apoyar la toma de decisiones. Sin embargo,
-el procedimiento vigente en el Hospital Susana López de Valencia elimina sistemáticamente los diagnósticos secundarios,
-depende de un único profesional, carece de criterios documentados y requiere 2 a 3 días de ejecución manual,
-lo que limita la trazabilidad, reproducibilidad y eficiencia del proceso. El presente proyecto propone la implementación de un
-\textit{pipeline} automatizado en Python, que estandariza los criterios de limpieza, conserva la información secundaria y mejora
-la eficiencia y trazabilidad del proceso. Esta solución aporta valor en tres dimensiones: \textbf{institucional}, al generar un
-perfil epidemiológico más completo; \textbf{técnica}, al reemplazar un proceso manual por uno automatizado y reproducible; y \textbf{académica},
-al aplicar conocimientos de ingeniería de sistemas en un contexto real con resultados medibles mediante métricas de calidad de datos.
-La viabilidad del proyecto se respalda en la disponibilidad de datos del primer trimestre de 2025, las herramientas tecnológicas establecidas y
-la responsabilidad directa del estudiante en la ejecución del proceso.
+El proyecto se justifica por tres razones: en la dimensión institucional, porque permite estandarizar la limpieza de datos y conservar los diagnósticos secundarios; en la dimensión técnica, porque automatiza el proceso mediante \textit{Python}, aumentando eficiencia, trazabilidad y reproducibilidad; y en la dimensión académica, porque aplica conocimientos de ingeniería de sistemas en un contexto real, generando un producto tangible y medible.
 
-\vspace{0.5cm}
+\section*{Problema concreto}
 
-% ========================
+\textbf{Qué falla:} La limpieza que se realiza de los datos usados para el análisis y la posterior creación de reportes se reduce a \textit{8.000-10.000} filas debido a que el método de limpieza vigente desecha todos los diagnósticos secundarios. Se estima que cada paciente puede llegar a tener hasta \textbf{10 diagnósticos} secundarios.
 
+\textbf{Dónde ocurre:} Este problema ocurre en la limpieza de datos. Se desechan los datos secundarios reduciendo de manera considerable los datos de que se analizan para el informe de morbilidad.
 
-\section{Problema concreto}
-\textbf{Qué falla:} La limpieza que se realiza de los datos usados para el analisis y la posterior creación de reportes
-se reducen a \textit{8.000 - 10.000} filas debido a que el método de limpieza vigente desecha todos los diagnósticos secundarios. Se estima
-que cada paciente puede llegar a tener hasta \textbf{10 diagnósticos} secundarios. \\
+\textbf{Consecuencia:} Al momento de analizar los datos en las reuniones como comités, la calidad de dichos datos y la falta de los datos secundarios presenta un vacío importante para los siguientes aspectos: análisis carente de los diagnósticos secundarios, falta de calidad en el monitoreo del comportamiento de morbilidad, falta de información para identificar patrones o comportamientos de calidad y toma de decisiones afectada por los anteriores puntos.
 
-\vspace{0.3cm}
-\textbf{Dónde ocurre:} Este problema ocurre en la limpieza de datos, se desechan los datos secundarios, e incluso despues de dicha
-limpieza se informa que llegan datos con escasa calidad. \\
+\section*{Pregunta de investigación}
 
-\vspace{0.3cm}
-\textbf{Consecuencia:} Al momento de analizar los datos en las reuniones como comités, la calidad de dichos datos
-y la falta de los datos secundarios presenta un vació importante para los siguientes aspectos:
-\textit{análisis carente de los diagnósticos secundarios, falta de calidad en el monitoreo del comportamiento de morbilidad,
-falta de información para identificar patrones u comportamientos de calidad, toma de decisiones afectada por los anteriores puntos}.
-\vspace{0.5cm}
+¿Cómo diseñar e implementar un pipeline y esquema de datos estandarizado para integrar todos los diagnósticos en los registros de morbilidad del hospital Susana Lopez de Valencia bajo la clasificación CIE-10?
 
-% =========================
-\section{Pregunta de investigación}
-¿Cómo diseñar e implementar un esquema de datos estandarizado para integrar diagnósticos principales y secundarios
-en los registros de morbilidad de un hospital bajo la clasificación CIE-10? \footnote{¿Puede que seamos mas específicos
-con el nombre del hospital en la pregunta de investigación?}
-\vspace{1cm}
+\section*{Idea central}
 
-% =========================
-\section{Idea central}
-Hacer el diseño y la implementación de un esquema y un pipeline que estandarice el proceso de filtrado de datos y sus resultados,
-con el fin de que se contemplen todos los diagnósticos, no solo los principales, y ayude a mejorar de manera
-considerable los análisis y reportes generados en base a estos. Encontrando patrones y comportamientos en
-el porqué se enferma la población.
-Y por consecuencia la mejora de toma de decisiones y el perfil epidemiólogico institucional anual.
-\vspace{1cm}\footnote{La idea central podría limitarse a no hablar de patrones y comportamientos u toma de decisiones.
-Centrandose unicamente en la limpieza de los datos.}\\
+Hacer el diseño y la implementación de un esquema y un pipeline que estandarice el proceso de filtrado de datos y sus resultados, con el fin de que se contemplen todos los diagnósticos, no solo los principales, y ayude a mejorar de manera considerable los análisis y reportes generados en base a estos. Ayudando de manera retroactiva los
+futuros procesos del hospital que necesiten datos limpios y completos
 
+\section*{Variables / métricas}
 
-\vspace{1cm}
-
-% =========================
-\section{Variables / métricas}
 \begin{itemize}
     \item Métrica 1: Total de filas recibidas por mes.
     \item Métrica 2: Número y porcentaje de registros con diagnóstico principal vacío o inválido.
@@ -127,19 +86,14 @@ Centrandose unicamente en la limpieza de los datos.}\\
     \item Métrica 18: Proporción de diagnósticos principales vs secundarios en el esquema final.
 \end{itemize}
 
+\section*{Restricciones}
 
-% =========================
-\section{Restricciones}
 \begin{itemize}
     \item Acceso: El equipo no tiene acceso directo a la base de datos del hospital. Los datos son proporcionados mensualmente por el área de Sistemas mediante una copia cargada en un servidor habilitado para consultas.
     \item Tiempo: Los datos se reciben una vez al mes, lo que limita la posibilidad de realizar aclaraciones o consultas adicionales sobre periodos específicos.
     \item Alcance: El proyecto se centra exclusivamente en la fase de preparación y estructuración de datos, sin realizar análisis clínicos ni conclusiones epidemiológicas.
     \item Datos disponibles: Solo se dispone de información correspondiente a enero, febrero y marzo de 2025, por lo que los resultados no pueden generalizarse a otros periodos sin validación adicional.
-    \item Operación: El proceso de limpieza y estructuración de los datos depende de un único profesional, con criterios de aplicación que pueden estar basados en prácticas institucionales no documentadas.
+    \item Operación: El proceso de limpieza y estructuración depende de un único profesional cuya ejecución técnica no está documentada de forma replicable, lo que puede generar variaciones entre ciclos de ejecución.
 \end{itemize}
-
-% =========================
-
-
 
 \end{document}
