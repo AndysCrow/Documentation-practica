@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1773895143.05529 "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" "index.pdf" "index" 1773895143.4276 0
+["pdflatex"] 1773895860.06871 "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" "index.pdf" "index" 1773895860.54355 0
   "/etc/texmf/web2c/texmf.cnf" 1763613912.74862 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" 1773895142.8935 10773 230d219e75bc41a3dfd00ba8701aa294 ""
+  "/home/andres-crow/LaTeX/Proyect/planteamiento/index.tex" 1773895859.52848 10777 a15f5c75a0a386ce488638d12b51bc00 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -54,9 +54,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772914263.90012 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772914301 8213475 ffe02570c1d88bbabbbd14e2054b3ad0 ""
-  "Arbol de problemas.png" 1773894375.83959 1101813 f3bb5bda338999e13131b2681ca471d5 ""
-  "index.aux" 1773895143.39616 401 5b6542eb66a373da6ad7ad8e51f65f0e "pdflatex"
-  "index.tex" 1773895142.8935 10773 230d219e75bc41a3dfd00ba8701aa294 ""
+  "Arbol de problemas (1).png" 1773895807.82547 1100988 cc1a28669f5e7d0ba6328f6b13377359 ""
+  "index.aux" 1773895860.4848 401 5b6542eb66a373da6ad7ad8e51f65f0e "pdflatex"
+  "index.tex" 1773895859.52848 10777 a15f5c75a0a386ce488638d12b51bc00 ""
   (generated)
   "index.aux"
   "index.log"
