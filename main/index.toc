@@ -1,37 +1,33 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción y Planteamiento del Problema}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Introducción}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Pregunta de Investigación}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Planteamiento del Problema}{2}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Justificación}{2}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Objetivos}{2}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Objetivo General}{2}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Objetivos Específicos}{2}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}Alcance y Limitaciones}{3}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Hipótesis}{3}{subsection.1.7}%
-\contentsline {section}{\numberline {2}Marco Teórico}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Antecedentes de la Investigación}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Estado del Arte}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Fundamentación Teórica}{4}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Análisis del Problema}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Análisis del Problema}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Árbol de Problemas}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Árbol de Objetivos}{5}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Metodología}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Tipo de Estudio / Diseño de Investigación}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Población y Muestra}{6}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Técnicas e Instrumentos de Recolección de Datos}{6}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Procedimiento}{6}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Análisis de Datos}{6}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Plan de Trabajo y Cronograma}{7}{section.5}%
-\contentsline {section}{\numberline {6}Presupuesto}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Recursos Materiales}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Recursos Humanos}{8}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Costos Estimados}{8}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Matriz de Riesgos}{9}{section.7}%
-\contentsline {section}{\numberline {8}Resultados Esperados e Impacto}{10}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Productos o Entregables Esperados}{10}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Beneficios para la Institución, Comunidad o Industria}{10}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Cronograma de Implementación}{11}{section.9}%
-\contentsline {section}{\numberline {10}Referencias Bibliográficas}{12}{section.10}%
-\contentsline {section}{Anexos}{13}{section*.2}%
+\contentsline {subsection}{\numberline {1.2}Pregunta de Investigación}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Planteamiento del Problema}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Justificación}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Objetivos}{6}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Objetivo General}{6}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Objetivos Específicos}{6}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}Alcance y Limitaciones}{6}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Alcance}{6}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Limitaciones del alcance}{7}{subsubsection.1.6.2}%
+\contentsline {section}{\numberline {2}Marco Teórico}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Antecedentes de la Investigación}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Estado del Arte}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Fundamentación Teórica}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Análisis del Problema}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Análisis del Problema}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Árbol de Problemas}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Árbol de Objetivos}{11}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Metodología}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tipo de Estudio / Diseño de Investigación}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Población y Muestra}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Técnicas e Instrumentos de Recolección de Datos}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Procedimiento}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Análisis de Datos}{12}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Plan de Trabajo y Cronograma}{13}{section.5}%
+\contentsline {section}{\numberline {6}Resultados Esperados e Impacto}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Productos o Entregables Esperados}{14}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Beneficios para la Institución, Comunidad o Industria}{14}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Cronograma de Implementación}{15}{section.7}%
+\contentsline {section}{\numberline {8}Referencias Bibliográficas}{16}{section.8}%
+\contentsline {section}{Anexos}{17}{section*.4}%

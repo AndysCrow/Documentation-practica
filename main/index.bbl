@@ -19,89 +19,820 @@
 
 \refsection{0}
   \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{apellido2024}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=75c8438d77d5849593361c7f3ad493f8}{%
-           family={Apellido},
+    \entry{albu_challenges_2025}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=b91722582f37c464266e950f0191a01c}{%
+           family={Albu},
            familyi={A\bibinitperiod},
-           given={Nombre},
-           giveni={N\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b58f1252ebfd2d73de2397a81ac5aec5}{%
-           family={OtroAutor},
-           familyi={O\bibinitperiod},
-           given={Nombre},
-           giveni={N\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8153ae3c6d2daa05acd1449d6d295446}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Shan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80b2457ec8b1238741ed6bfa719359bd}{%
+           family={Stijnen},
+           familyi={S\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e25a3a2eb680ccd0edd0af233bfa95b}{%
+           family={Rademakers},
+           familyi={R\bibinitperiod},
+           given={Frank\bibnamedelima E},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9d9993d085e9488761690ab0457e8e7}{%
+           family={Van\bibnamedelima Bussel},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Bas\bibnamedelima Ct},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0bb3d61624279e5264ca316b141d0ca}{%
+           family={Collyer},
+           familyi={C\bibinitperiod},
+           given={Taya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c976976b9f5618a71e125e9adb518c46}{%
+           family={Hernandez-Boussard},
+           familyi={H\bibinithyphendelim B\bibinitperiod},
+           given={Tina},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48ca3a438aa8cf0fa7f705511fa562c3}{%
+           family={Wynants},
+           familyi={W\bibinitperiod},
+           given={Laure},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7620b0464c9501cf9c366d0714d72d3a}{%
+           family={Van\bibnamedelima Calster},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{fullhash}{0d4d75772650c26c69c4434184c78145}
-      \strng{bibnamehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{authorbibnamehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{authornamehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{authorfullhash}{0d4d75772650c26c69c4434184c78145}
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{596b8b3c52ff4eac99769496848fe691}
+      \strng{fullhash}{8cf4015a6589edcd92aeb2999ef6da2a}
+      \strng{bibnamehash}{8cf4015a6589edcd92aeb2999ef6da2a}
+      \strng{authorbibnamehash}{8cf4015a6589edcd92aeb2999ef6da2a}
+      \strng{authornamehash}{596b8b3c52ff4eac99769496848fe691}
+      \strng{authorfullhash}{8cf4015a6589edcd92aeb2999ef6da2a}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nombre de la Revista}
-      \field{number}{2}
-      \field{title}{Título del artículo}
-      \field{volume}{10}
-      \field{year}{2024}
-      \field{pages}{45\bibrangedash 67}
-      \range{pages}{23}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Dynamic predictive modeling using electronic health record data has gained significant attention in recent years. The reliability and trustworthiness of such models depend heavily on the quality of the underlying data, which is, in part, determined by the stages preceding the model development: data extraction from electronic health record systems and data preparation. In this paper, we identified over 40 challenges encountered during these stages and provided actionable recommendations for addressing them. These challenges are organized into 4 categories: cohort definition, outcome definition, feature engineering, and data cleaning. This comprehensive list serves as a practical guide for data extraction engineers and researchers, promoting best practices and improving the quality and real-world applicability of dynamic prediction models in clinical settings.}
+      \field{issn}{1438-8871}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{month}{10}
+      \field{shorttitle}{Challenges and {Recommendations} for {Electronic} {Health} {Records} {Data} {Extraction} and {Preparation} for {Dynamic} {Prediction} {Modeling} in {Hospitalized} {Patients}}
+      \field{title}{Challenges and {Recommendations} for {Electronic} {Health} {Records} {Data} {Extraction} and {Preparation} for {Dynamic} {Prediction} {Modeling} in {Hospitalized} {Patients}: {Practical} {Guide} and {Tutorial}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{e73987}
+      \range{pages}{-1}
       \verb{doi}
-      \verb 10.xxxx/xxxxxxx
+      \verb 10.2196/73987
       \endverb
+      \verb{urlraw}
+      \verb https://www.jmir.org/2025/1/e73987
+      \endverb
+      \verb{url}
+      \verb https://www.jmir.org/2025/1/e73987
+      \endverb
+    \endentry
+    \entry{ben_scalable_2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c4042a9c064768e4b5de8620f99460fb}{%
+           family={Ben},
+           familyi={B\bibinitperiod},
+           given={Taiwo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7af0f1828a240d6e846741076d578856}{%
+           family={Adebayo},
+           familyi={A\bibinitperiod},
+           given={Hassan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e6af528a49a8d0bbaf0e22f11ff2d6f}{%
+           family={Jeremiah},
+           familyi={J\bibinitperiod},
+           given={Omilegbe},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{814d4a7c7aff9aaff0c6bb7ae6b8549a}
+      \strng{fullhash}{2baa280c5dd2492eede35eb7de94a361}
+      \strng{bibnamehash}{2baa280c5dd2492eede35eb7de94a361}
+      \strng{authorbibnamehash}{2baa280c5dd2492eede35eb7de94a361}
+      \strng{authornamehash}{814d4a7c7aff9aaff0c6bb7ae6b8549a}
+      \strng{authorfullhash}{2baa280c5dd2492eede35eb7de94a361}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The exponential growth of healthcare data from electronic health records (EHRs), clinical registries, and administrative databases presents unprecedented opportunities for research and clinical decision support. However, these real-world data sources are plagued by quality issues including missing values, outliers, semantic inconsistencies, and formatting errors that compromise their utility for secondary analysis. This study presents a scalable, hybrid framework for automated data quality assessment and cleaning that integrates rule-driven validation with Python-based machine learning techniques. The framework combines three complementary approaches: (1) rule-based validation using configurable domain knowledge and FHIR-compliant data standards, (2) unsupervised machine learning algorithms (Isolation Forest, DBSCAN, and KNN) for outlier detection, and (3) advanced imputation methods (MissForest, iterative imputation) for missing data handling. The framework was evaluated using two large-scale healthcare datasets comprising 1.2 million patient records from multiple clinical sites. The proposed framework achieved 94.2\% accuracy in detecting data quality anomalies, representing a 6.8\% relative improvement over rule-only methods. Missing value imputation using MissForest attained R² values of 0.89 for continuous variables and 92.3\% classification accuracy for categorical variables. The framework demonstrated linear scalability up to 10 million records with processing times of 3.2 minutes per million records on standard computing infrastructure.}
+      \field{month}{1}
+      \field{title}{A {Scalable} {Data} {Quality} {Assessment} and {Automated} {Cleaning} {Framework} for {Large}-{Scale} {Healthcare} {Databases} {Using} {Python}-{Based} {Machine} {Learning} and {Rule}-{Driven} {Validation} {Techniques}}
+      \field{year}{2024}
+    \endentry
+    \entry{blacketer_using_2021}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=88b73d5700503bd899b944cb9ca06918}{%
+           family={Blacketer},
+           familyi={B\bibinitperiod},
+           given={Clair},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a647eb03879826ff133ece587ff7289d}{%
+           family={Voss},
+           familyi={V\bibinitperiod},
+           given={Erica\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0ff845ca34a49d0a9dc7830af295034}{%
+           family={DeFalco},
+           familyi={D\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7560e8f011b9b46029a438a2cbb8810}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5a82b5455828aae38ed9858b1590b9b}{%
+           family={Schuemie},
+           familyi={S\bibinitperiod},
+           given={Martijn\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d44acb2d70f3e6108422d1a19da620eb}{%
+           family={Moinat},
+           familyi={M\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c8d0aa74caa905a63805a43742dcee4}{%
+           family={Rijnbeek},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6d5e3230f380459353e6c571ebda487d}
+      \strng{fullhash}{7d95190f96a6004370a32d6c818eb1cb}
+      \strng{bibnamehash}{7d95190f96a6004370a32d6c818eb1cb}
+      \strng{authorbibnamehash}{7d95190f96a6004370a32d6c818eb1cb}
+      \strng{authornamehash}{6d5e3230f380459353e6c571ebda487d}
+      \strng{authorfullhash}{7d95190f96a6004370a32d6c818eb1cb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Federated networks of observational health databases have the potential to be a rich resource to inform clinical practice and regulatory decision making. However, the lack of standard data quality processes makes it difficult to know if these data are research ready. The EHDEN COVID-19 Rapid Collaboration Call presented the opportunity to assess how the newly developed open-source tool Data Quality Dashboard (DQD) informs the quality of data in a federated network. Fifteen Data Partners (DPs) from 10 different countries worked with the EHDEN taskforce to map their data to the OMOP CDM. Throughout the process at least two DQD results were collected and compared for each DP. All DPs showed an improvement in their data quality between the first and last run of the DQD. The DQD excelled at helping DPs identify and fix conformance issues but showed less of an impact on completeness and plausibility checks. This is the first study to apply the DQD on multiple, disparate databases across a network. While study-specific checks should still be run, we recommend that all data holders converting their data to the OMOP CDM use the DQD as it ensures conformance to the model specifications and that a database meets a baseline level of completeness and plausibility for use in research.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{12}
+      \field{number}{24}
+      \field{title}{Using the {Data} {Quality} {Dashboard} to {Improve} the {EHDEN} {Network}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{11920}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app112411920
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/YJW6L3F9/Blacketer et al. - 2021 - Using the Data Quality Dashboard to Improve the EHDEN Network.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/11/24/11920
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/11/24/11920
+      \endverb
+    \endentry
+    \entry{SRS_Morbilidad_2026}{report}{}
+      \list{institution}{1}{%
+        {Hospital Susana López de Valencia}%
+      }
+      \list{location}{1}{%
+        {Popayán, Colombia}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Basado en el estándar ISO/IEC/IEEE 29148:2018}
+      \field{title}{Especificación de Requerimientos de Datos (SRS/DRS) para la Plataforma de Análisis de Morbilidad Institucional}
+      \field{type}{Documento técnico de levantamiento de requerimientos}
+      \field{year}{2026}
+    \endentry
+    \entry{lighterness_data_2024}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=98aead1e649af2b6a6ceec8372f99d06}{%
+           family={Lighterness},
+           familyi={L\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=504373b5a1880d3079847b20d7f7ddcf}{%
+           family={Adcock},
+           familyi={A\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1c92e62d187be9a0f8e88f7563fe978}{%
+           family={Scanlon},
+           familyi={S\bibinitperiod},
+           given={Lauren\bibnamedelima Abigail},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e33b89e3f8c6baf8164246a2742716ca}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Gareth},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9dec87a10403576ec554b4e935284c8e}
+      \strng{fullhash}{e6aeaf0c7df8280f3387c1897590223b}
+      \strng{bibnamehash}{e6aeaf0c7df8280f3387c1897590223b}
+      \strng{authorbibnamehash}{e6aeaf0c7df8280f3387c1897590223b}
+      \strng{authornamehash}{9dec87a10403576ec554b4e935284c8e}
+      \strng{authorfullhash}{e6aeaf0c7df8280f3387c1897590223b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background The promise of real-world evidence and the learning health care system primarily depends on access to high-quality data. Despite widespread awareness of the prevalence and potential impacts of poor data quality (DQ), best practices for its assessment and improvement are unknown. Objective This review aims to investigate how existing research studies define, assess, and improve the quality of structured real-world health care data. Methods A systematic literature search of studies in the English language was implemented in the Embase and PubMed databases to select studies that specifically aimed to measure and improve the quality of structured real-world data within any clinical setting. The time frame for the analysis was from January 1945 to June 2023. We standardized DQ concepts according to the Data Management Association (DAMA) DQ framework to enable comparison between studies. After screening and filtering by 2 independent authors, we identified 39 relevant articles reporting DQ improvement initiatives. Results The studies were characterized by considerable heterogeneity in settings and approaches to DQ assessment and improvement. Affiliated institutions were from 18 different countries and 18 different health domains. DQ assessment methods were largely manual and targeted completeness and 1 other DQ dimension. Use of DQ frameworks was limited to the Weiskopf and Weng (3/6, 50\%) or Kahn harmonized model (3/6, 50\%). Use of standardized methodologies to design and implement quality improvement was lacking, but mainly included plan-do-study-act (PDSA) or define-measure-analyze-improve-control (DMAIC) cycles. Most studies reported DQ improvements using multiple interventions, which included either DQ reporting and personalized feedback (24/39, 61\%), IT-related solutions (21/39, 54\%), training (17/39, 44\%), improvements in workflows (5/39, 13\%), or data cleaning (3/39, 8\%). Most studies reported improvements in DQ through a combination of these interventions. Statistical methods were used to determine significance of treatment effect (22/39, 56\% times), but only 1 study implemented a randomized controlled study design. Variability in study designs, approaches to delivering interventions, and reporting DQ changes hindered a robust meta-analysis of treatment effects. Conclusions There is an urgent need for standardized guidelines in DQ improvement research to enable comparison and effective synthesis of lessons learned. Frameworks such as PDSA learning cycles and the DAMA DQ framework can facilitate this unmet need. In addition, DQ improvement studies can also benefit from prioritizing root cause analysis of DQ issues to ensure the most appropriate intervention is implemented, thereby ensuring long-term, sustainable improvement. Despite the rise in DQ improvement studies in the last decade, significant heterogeneity in methodologies and reporting remains a challenge. Adopting standardized frameworks for DQ assessment, analysis, and improvement can enhance the effectiveness, comparability, and generalizability of DQ improvement initiatives.}
+      \field{issn}{1439-4456}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{month}{8}
+      \field{shorttitle}{Data {Quality}–{Driven} {Improvement} in {Health} {Care}}
+      \field{title}{Data {Quality}–{Driven} {Improvement} in {Health} {Care}: {Systematic} {Literature} {Review}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{26}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e57615}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/57615
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/NNFVZR2T/Lighterness et al. - 2024 - Data Quality–Driven Improvement in Health Care Systematic Literature Review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11377907/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11377907/
+      \endverb
+    \endentry
+    \entry{petri_clinical_2025}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d4b86d9336dcc48abd47fa22e01f9242}{%
+           family={Petri},
+           familyi={P\bibinitperiod},
+           given={Valo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceecad40dc46404bbb005d189f96e346}{%
+           family={Antoine},
+           familyi={A\bibinitperiod},
+           given={Tran},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f72feba6b31356f0bbd366d27379a2f2}{%
+           family={Emma},
+           familyi={E\bibinitperiod},
+           given={Baranton},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cf3d36f71cb19d3fa0957972e2a8683}{%
+           family={Hervé},
+           familyi={H\bibinitperiod},
+           given={Haas},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb6688743a3089d4ed786186fb71c935}{%
+           family={Emma},
+           familyi={E\bibinitperiod},
+           given={Freyssinet},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aff924fa56b9e7c1c86f3f97c4a83e0}{%
+           family={Hana},
+           familyi={H\bibinitperiod},
+           given={Vrzáková},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{812f1420a4d4c382db5fd781045b0e0c}
+      \strng{fullhash}{d411458ce15bf986f13b782441374c4d}
+      \strng{bibnamehash}{d411458ce15bf986f13b782441374c4d}
+      \strng{authorbibnamehash}{d411458ce15bf986f13b782441374c4d}
+      \strng{authornamehash}{812f1420a4d4c382db5fd781045b0e0c}
+      \strng{authorfullhash}{d411458ce15bf986f13b782441374c4d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective The quantity of patient data in healthcare is exponentially increasing. While big data and artificial intelligence have emerged across the fields, in healthcare, such rapid development is hindered by numerous factors. Predominantly, health-care software developed decades ago cannot foresee the demands of modern data processing and analysis. We present the challenges, remedies, and steps of efficient patient data integration that have been co-developed with clinicians at Lenval Children's University Hospital in Nice, France. Methods In collaboration with pediatricians, we created an integration framework that integrated a patient's germane historical data (from the past 10 years) for research purposes. The clinical data presented in this study were collected between 2012 and 2021 in the Lenval Children's University Hospital Pediatric Emergency Department. Results We present the architecture of a clinical data warehouse (CDW) and demonstrate its use. CDW can also host doctoral notes, which is the key element for creating large language models that can help predict patient outcomes and provide critical information to health-care professionals. We also conducted several tests on the utilization of this new CDW, recorded multiple challenges on data integration, and gave three suggestions on software design. The CDW we created represents a solid foundation for future machine learning models of patient flow, hospital economics, and studies on rare diseases at CHU-Lenval. Conclusion Although the integration framework is grounded in pediatrics, the challenges discussed, and the proposed remedies are relevant for software development across medical specializations. Our recommendations for software design can help with future secondary usage of Electronic Health Record.}
+      \field{issn}{2055-2076, 2055-2076}
+      \field{journaltitle}{DIGITAL HEALTH}
+      \field{month}{5}
+      \field{title}{Clinical data integration and processing challenges in healthcare caused by contemporary software design}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{20552076251374233}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/20552076251374233
+      \endverb
+      \verb{file}
+      \verb SAGE PDF Full Text:/home/andres-crow/Zotero/storage/RYKQ7WMZ/Petri et al. - 2025 - Clinical data integration and processing challenges in healthcare caused by contemporary software de.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/20552076251374233
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/20552076251374233
+      \endverb
+    \endentry
+    \entry{Procedimiento_Morbilidad_HSLV}{manual}{}
+      \list{location}{1}{%
+        {Popayán, Colombia}%
+      }
+      \list{organization}{1}{%
+        {Hospital Susana López de Valencia E.S.E.}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Código: SLV-GC-01, Documento institucional de gestión clínica y epidemiológica}
+      \field{title}{Procedimiento de Morbilidad Institucional}
+      \field{year}{s.f.}
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global}
-    \entry{apellido2024}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=75c8438d77d5849593361c7f3ad493f8}{%
-           family={Apellido},
+    \entry{albu_challenges_2025}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=b91722582f37c464266e950f0191a01c}{%
+           family={Albu},
            familyi={A\bibinitperiod},
-           given={Nombre},
-           giveni={N\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b58f1252ebfd2d73de2397a81ac5aec5}{%
-           family={OtroAutor},
-           familyi={O\bibinitperiod},
-           given={Nombre},
-           giveni={N\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8153ae3c6d2daa05acd1449d6d295446}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Shan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80b2457ec8b1238741ed6bfa719359bd}{%
+           family={Stijnen},
+           familyi={S\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e25a3a2eb680ccd0edd0af233bfa95b}{%
+           family={Rademakers},
+           familyi={R\bibinitperiod},
+           given={Frank\bibnamedelima E},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9d9993d085e9488761690ab0457e8e7}{%
+           family={Van\bibnamedelima Bussel},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Bas\bibnamedelima Ct},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0bb3d61624279e5264ca316b141d0ca}{%
+           family={Collyer},
+           familyi={C\bibinitperiod},
+           given={Taya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c976976b9f5618a71e125e9adb518c46}{%
+           family={Hernandez-Boussard},
+           familyi={H\bibinithyphendelim B\bibinitperiod},
+           given={Tina},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48ca3a438aa8cf0fa7f705511fa562c3}{%
+           family={Wynants},
+           familyi={W\bibinitperiod},
+           given={Laure},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7620b0464c9501cf9c366d0714d72d3a}{%
+           family={Van\bibnamedelima Calster},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{fullhash}{0d4d75772650c26c69c4434184c78145}
-      \strng{bibnamehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{authorbibnamehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{authornamehash}{0d4d75772650c26c69c4434184c78145}
-      \strng{authorfullhash}{0d4d75772650c26c69c4434184c78145}
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{596b8b3c52ff4eac99769496848fe691}
+      \strng{fullhash}{8cf4015a6589edcd92aeb2999ef6da2a}
+      \strng{bibnamehash}{8cf4015a6589edcd92aeb2999ef6da2a}
+      \strng{authorbibnamehash}{8cf4015a6589edcd92aeb2999ef6da2a}
+      \strng{authornamehash}{596b8b3c52ff4eac99769496848fe691}
+      \strng{authorfullhash}{8cf4015a6589edcd92aeb2999ef6da2a}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nombre de la Revista}
-      \field{number}{2}
-      \field{title}{Título del artículo}
-      \field{volume}{10}
-      \field{year}{2024}
-      \field{pages}{45\bibrangedash 67}
-      \range{pages}{23}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Dynamic predictive modeling using electronic health record data has gained significant attention in recent years. The reliability and trustworthiness of such models depend heavily on the quality of the underlying data, which is, in part, determined by the stages preceding the model development: data extraction from electronic health record systems and data preparation. In this paper, we identified over 40 challenges encountered during these stages and provided actionable recommendations for addressing them. These challenges are organized into 4 categories: cohort definition, outcome definition, feature engineering, and data cleaning. This comprehensive list serves as a practical guide for data extraction engineers and researchers, promoting best practices and improving the quality and real-world applicability of dynamic prediction models in clinical settings.}
+      \field{issn}{1438-8871}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{month}{10}
+      \field{shorttitle}{Challenges and {Recommendations} for {Electronic} {Health} {Records} {Data} {Extraction} and {Preparation} for {Dynamic} {Prediction} {Modeling} in {Hospitalized} {Patients}}
+      \field{title}{Challenges and {Recommendations} for {Electronic} {Health} {Records} {Data} {Extraction} and {Preparation} for {Dynamic} {Prediction} {Modeling} in {Hospitalized} {Patients}: {Practical} {Guide} and {Tutorial}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{e73987}
+      \range{pages}{-1}
       \verb{doi}
-      \verb 10.xxxx/xxxxxxx
+      \verb 10.2196/73987
       \endverb
+      \verb{urlraw}
+      \verb https://www.jmir.org/2025/1/e73987
+      \endverb
+      \verb{url}
+      \verb https://www.jmir.org/2025/1/e73987
+      \endverb
+    \endentry
+    \entry{ben_scalable_2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c4042a9c064768e4b5de8620f99460fb}{%
+           family={Ben},
+           familyi={B\bibinitperiod},
+           given={Taiwo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7af0f1828a240d6e846741076d578856}{%
+           family={Adebayo},
+           familyi={A\bibinitperiod},
+           given={Hassan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e6af528a49a8d0bbaf0e22f11ff2d6f}{%
+           family={Jeremiah},
+           familyi={J\bibinitperiod},
+           given={Omilegbe},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{814d4a7c7aff9aaff0c6bb7ae6b8549a}
+      \strng{fullhash}{2baa280c5dd2492eede35eb7de94a361}
+      \strng{bibnamehash}{2baa280c5dd2492eede35eb7de94a361}
+      \strng{authorbibnamehash}{2baa280c5dd2492eede35eb7de94a361}
+      \strng{authornamehash}{814d4a7c7aff9aaff0c6bb7ae6b8549a}
+      \strng{authorfullhash}{2baa280c5dd2492eede35eb7de94a361}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The exponential growth of healthcare data from electronic health records (EHRs), clinical registries, and administrative databases presents unprecedented opportunities for research and clinical decision support. However, these real-world data sources are plagued by quality issues including missing values, outliers, semantic inconsistencies, and formatting errors that compromise their utility for secondary analysis. This study presents a scalable, hybrid framework for automated data quality assessment and cleaning that integrates rule-driven validation with Python-based machine learning techniques. The framework combines three complementary approaches: (1) rule-based validation using configurable domain knowledge and FHIR-compliant data standards, (2) unsupervised machine learning algorithms (Isolation Forest, DBSCAN, and KNN) for outlier detection, and (3) advanced imputation methods (MissForest, iterative imputation) for missing data handling. The framework was evaluated using two large-scale healthcare datasets comprising 1.2 million patient records from multiple clinical sites. The proposed framework achieved 94.2\% accuracy in detecting data quality anomalies, representing a 6.8\% relative improvement over rule-only methods. Missing value imputation using MissForest attained R² values of 0.89 for continuous variables and 92.3\% classification accuracy for categorical variables. The framework demonstrated linear scalability up to 10 million records with processing times of 3.2 minutes per million records on standard computing infrastructure.}
+      \field{month}{1}
+      \field{title}{A {Scalable} {Data} {Quality} {Assessment} and {Automated} {Cleaning} {Framework} for {Large}-{Scale} {Healthcare} {Databases} {Using} {Python}-{Based} {Machine} {Learning} and {Rule}-{Driven} {Validation} {Techniques}}
+      \field{year}{2024}
+    \endentry
+    \entry{blacketer_using_2021}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=88b73d5700503bd899b944cb9ca06918}{%
+           family={Blacketer},
+           familyi={B\bibinitperiod},
+           given={Clair},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a647eb03879826ff133ece587ff7289d}{%
+           family={Voss},
+           familyi={V\bibinitperiod},
+           given={Erica\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0ff845ca34a49d0a9dc7830af295034}{%
+           family={DeFalco},
+           familyi={D\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7560e8f011b9b46029a438a2cbb8810}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5a82b5455828aae38ed9858b1590b9b}{%
+           family={Schuemie},
+           familyi={S\bibinitperiod},
+           given={Martijn\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d44acb2d70f3e6108422d1a19da620eb}{%
+           family={Moinat},
+           familyi={M\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c8d0aa74caa905a63805a43742dcee4}{%
+           family={Rijnbeek},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6d5e3230f380459353e6c571ebda487d}
+      \strng{fullhash}{7d95190f96a6004370a32d6c818eb1cb}
+      \strng{bibnamehash}{7d95190f96a6004370a32d6c818eb1cb}
+      \strng{authorbibnamehash}{7d95190f96a6004370a32d6c818eb1cb}
+      \strng{authornamehash}{6d5e3230f380459353e6c571ebda487d}
+      \strng{authorfullhash}{7d95190f96a6004370a32d6c818eb1cb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Federated networks of observational health databases have the potential to be a rich resource to inform clinical practice and regulatory decision making. However, the lack of standard data quality processes makes it difficult to know if these data are research ready. The EHDEN COVID-19 Rapid Collaboration Call presented the opportunity to assess how the newly developed open-source tool Data Quality Dashboard (DQD) informs the quality of data in a federated network. Fifteen Data Partners (DPs) from 10 different countries worked with the EHDEN taskforce to map their data to the OMOP CDM. Throughout the process at least two DQD results were collected and compared for each DP. All DPs showed an improvement in their data quality between the first and last run of the DQD. The DQD excelled at helping DPs identify and fix conformance issues but showed less of an impact on completeness and plausibility checks. This is the first study to apply the DQD on multiple, disparate databases across a network. While study-specific checks should still be run, we recommend that all data holders converting their data to the OMOP CDM use the DQD as it ensures conformance to the model specifications and that a database meets a baseline level of completeness and plausibility for use in research.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{12}
+      \field{number}{24}
+      \field{title}{Using the {Data} {Quality} {Dashboard} to {Improve} the {EHDEN} {Network}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{11920}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app112411920
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/YJW6L3F9/Blacketer et al. - 2021 - Using the Data Quality Dashboard to Improve the EHDEN Network.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/11/24/11920
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/11/24/11920
+      \endverb
+    \endentry
+    \entry{SRS_Morbilidad_2026}{report}{}
+      \list{institution}{1}{%
+        {Hospital Susana López de Valencia}%
+      }
+      \list{location}{1}{%
+        {Popayán, Colombia}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Basado en el estándar ISO/IEC/IEEE 29148:2018}
+      \field{title}{Especificación de Requerimientos de Datos (SRS/DRS) para la Plataforma de Análisis de Morbilidad Institucional}
+      \field{type}{Documento técnico de levantamiento de requerimientos}
+      \field{year}{2026}
+    \endentry
+    \entry{lighterness_data_2024}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=98aead1e649af2b6a6ceec8372f99d06}{%
+           family={Lighterness},
+           familyi={L\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=504373b5a1880d3079847b20d7f7ddcf}{%
+           family={Adcock},
+           familyi={A\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1c92e62d187be9a0f8e88f7563fe978}{%
+           family={Scanlon},
+           familyi={S\bibinitperiod},
+           given={Lauren\bibnamedelima Abigail},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e33b89e3f8c6baf8164246a2742716ca}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Gareth},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9dec87a10403576ec554b4e935284c8e}
+      \strng{fullhash}{e6aeaf0c7df8280f3387c1897590223b}
+      \strng{bibnamehash}{e6aeaf0c7df8280f3387c1897590223b}
+      \strng{authorbibnamehash}{e6aeaf0c7df8280f3387c1897590223b}
+      \strng{authornamehash}{9dec87a10403576ec554b4e935284c8e}
+      \strng{authorfullhash}{e6aeaf0c7df8280f3387c1897590223b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background The promise of real-world evidence and the learning health care system primarily depends on access to high-quality data. Despite widespread awareness of the prevalence and potential impacts of poor data quality (DQ), best practices for its assessment and improvement are unknown. Objective This review aims to investigate how existing research studies define, assess, and improve the quality of structured real-world health care data. Methods A systematic literature search of studies in the English language was implemented in the Embase and PubMed databases to select studies that specifically aimed to measure and improve the quality of structured real-world data within any clinical setting. The time frame for the analysis was from January 1945 to June 2023. We standardized DQ concepts according to the Data Management Association (DAMA) DQ framework to enable comparison between studies. After screening and filtering by 2 independent authors, we identified 39 relevant articles reporting DQ improvement initiatives. Results The studies were characterized by considerable heterogeneity in settings and approaches to DQ assessment and improvement. Affiliated institutions were from 18 different countries and 18 different health domains. DQ assessment methods were largely manual and targeted completeness and 1 other DQ dimension. Use of DQ frameworks was limited to the Weiskopf and Weng (3/6, 50\%) or Kahn harmonized model (3/6, 50\%). Use of standardized methodologies to design and implement quality improvement was lacking, but mainly included plan-do-study-act (PDSA) or define-measure-analyze-improve-control (DMAIC) cycles. Most studies reported DQ improvements using multiple interventions, which included either DQ reporting and personalized feedback (24/39, 61\%), IT-related solutions (21/39, 54\%), training (17/39, 44\%), improvements in workflows (5/39, 13\%), or data cleaning (3/39, 8\%). Most studies reported improvements in DQ through a combination of these interventions. Statistical methods were used to determine significance of treatment effect (22/39, 56\% times), but only 1 study implemented a randomized controlled study design. Variability in study designs, approaches to delivering interventions, and reporting DQ changes hindered a robust meta-analysis of treatment effects. Conclusions There is an urgent need for standardized guidelines in DQ improvement research to enable comparison and effective synthesis of lessons learned. Frameworks such as PDSA learning cycles and the DAMA DQ framework can facilitate this unmet need. In addition, DQ improvement studies can also benefit from prioritizing root cause analysis of DQ issues to ensure the most appropriate intervention is implemented, thereby ensuring long-term, sustainable improvement. Despite the rise in DQ improvement studies in the last decade, significant heterogeneity in methodologies and reporting remains a challenge. Adopting standardized frameworks for DQ assessment, analysis, and improvement can enhance the effectiveness, comparability, and generalizability of DQ improvement initiatives.}
+      \field{issn}{1439-4456}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{month}{8}
+      \field{shorttitle}{Data {Quality}–{Driven} {Improvement} in {Health} {Care}}
+      \field{title}{Data {Quality}–{Driven} {Improvement} in {Health} {Care}: {Systematic} {Literature} {Review}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{26}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e57615}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/57615
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/NNFVZR2T/Lighterness et al. - 2024 - Data Quality–Driven Improvement in Health Care Systematic Literature Review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11377907/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11377907/
+      \endverb
+    \endentry
+    \entry{petri_clinical_2025}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d4b86d9336dcc48abd47fa22e01f9242}{%
+           family={Petri},
+           familyi={P\bibinitperiod},
+           given={Valo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceecad40dc46404bbb005d189f96e346}{%
+           family={Antoine},
+           familyi={A\bibinitperiod},
+           given={Tran},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f72feba6b31356f0bbd366d27379a2f2}{%
+           family={Emma},
+           familyi={E\bibinitperiod},
+           given={Baranton},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cf3d36f71cb19d3fa0957972e2a8683}{%
+           family={Hervé},
+           familyi={H\bibinitperiod},
+           given={Haas},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb6688743a3089d4ed786186fb71c935}{%
+           family={Emma},
+           familyi={E\bibinitperiod},
+           given={Freyssinet},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aff924fa56b9e7c1c86f3f97c4a83e0}{%
+           family={Hana},
+           familyi={H\bibinitperiod},
+           given={Vrzáková},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{812f1420a4d4c382db5fd781045b0e0c}
+      \strng{fullhash}{d411458ce15bf986f13b782441374c4d}
+      \strng{bibnamehash}{d411458ce15bf986f13b782441374c4d}
+      \strng{authorbibnamehash}{d411458ce15bf986f13b782441374c4d}
+      \strng{authornamehash}{812f1420a4d4c382db5fd781045b0e0c}
+      \strng{authorfullhash}{d411458ce15bf986f13b782441374c4d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective The quantity of patient data in healthcare is exponentially increasing. While big data and artificial intelligence have emerged across the fields, in healthcare, such rapid development is hindered by numerous factors. Predominantly, health-care software developed decades ago cannot foresee the demands of modern data processing and analysis. We present the challenges, remedies, and steps of efficient patient data integration that have been co-developed with clinicians at Lenval Children's University Hospital in Nice, France. Methods In collaboration with pediatricians, we created an integration framework that integrated a patient's germane historical data (from the past 10 years) for research purposes. The clinical data presented in this study were collected between 2012 and 2021 in the Lenval Children's University Hospital Pediatric Emergency Department. Results We present the architecture of a clinical data warehouse (CDW) and demonstrate its use. CDW can also host doctoral notes, which is the key element for creating large language models that can help predict patient outcomes and provide critical information to health-care professionals. We also conducted several tests on the utilization of this new CDW, recorded multiple challenges on data integration, and gave three suggestions on software design. The CDW we created represents a solid foundation for future machine learning models of patient flow, hospital economics, and studies on rare diseases at CHU-Lenval. Conclusion Although the integration framework is grounded in pediatrics, the challenges discussed, and the proposed remedies are relevant for software development across medical specializations. Our recommendations for software design can help with future secondary usage of Electronic Health Record.}
+      \field{issn}{2055-2076, 2055-2076}
+      \field{journaltitle}{DIGITAL HEALTH}
+      \field{month}{5}
+      \field{title}{Clinical data integration and processing challenges in healthcare caused by contemporary software design}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{20552076251374233}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/20552076251374233
+      \endverb
+      \verb{file}
+      \verb SAGE PDF Full Text:/home/andres-crow/Zotero/storage/RYKQ7WMZ/Petri et al. - 2025 - Clinical data integration and processing challenges in healthcare caused by contemporary software de.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/20552076251374233
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/20552076251374233
+      \endverb
+    \endentry
+    \entry{Procedimiento_Morbilidad_HSLV}{manual}{}
+      \list{location}{1}{%
+        {Popayán, Colombia}%
+      }
+      \list{organization}{1}{%
+        {Hospital Susana López de Valencia E.S.E.}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Código: SLV-GC-01, Documento institucional de gestión clínica y epidemiológica}
+      \field{title}{Procedimiento de Morbilidad Institucional}
+      \field{year}{s.f.}
     \endentry
   \enddatalist
   \missing{autor2022}
-  \missing{hijji_multivocal_2021}
 \endrefsection
 \endinput
 

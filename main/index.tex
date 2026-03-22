@@ -106,14 +106,16 @@
 \begin{center}
   \vspace*{2cm}
 
-  {\large \textbf{Título del Anteproyecto}} \\[0.5cm]  % <-- Cambia este título
+  {\large \textbf{
+Implementación de un proceso de limpieza y estandarización de datos de morbilidad basado en CIE-10 en el Hospital Susana López de Valencia}} \\[0.5cm]  % <-- Cambia este título
 
   \vspace{1.5cm}
 
-  {\normalsize Autores: Rodrigo Andres Realpe, Jose Luis Valencia Avirama} \\[0.3cm]    % <-- Tu nombre
-  {\normalsize Director: Nombre del Director} \\[0.3cm]
+  {\normalsize Autores: Rodrigo Andres Realpe Chilito, Luis Fernando Vivas
+  Fernandez} \\[0.3cm]    % <-- Tu nombre
+  {\normalsize Director: Oscar Andres Angulo Lopez} \\[0.3cm]
   {\normalsize Programa: Ingeniería de Sistemas} \\[0.3cm]
-  {\normalsize Universidad: Corporación Universitaria Comfacauca} \\[0.3cm]
+  {\normalsize Universidad: Corporación Universitaria Comfacauca - Unicomfacauca} \\[0.3cm]
   {\normalsize Popayán, Colombia} \\[0.3cm]
   {\normalsize \the\year}                               % Año actual automático
 
@@ -164,44 +166,73 @@
 % Todos aparecen automáticamente en la tabla de contenido.
 
 \subsection{Introducción}
-Escribe aquí el texto introductorio del proyecto.
+La calidad de los datos utilizados en el sector salud se ha convertido en un factor fundamental para la toma de decisiones clínicas, ya que estos provienen de datos del mundo real (RWD, \textit{Real World Data}), los cuales son recopilados mediante herramientas como los registros electrónicos de salud (EHRs, \textit{Electronic Health Records}). A partir de estos registros se genera la evidencia del mundo real (RWE, \textit{Real World Evidence}), la cual constituye una base esencial para la toma de decisiones dentro de las instituciones clínicas \parencite{lighterness_data_2024}.\\
+
+Pese a esto, \textcite{ben_scalable_2024} señala que las fuentes de datos del mundo real suelen presentar inconsistencias y problemas de calidad, tales como valores atípicos, valores faltantes, errores de formato e incoherencias semánticas. Estas deficiencias comprometen la utilidad y confiabilidad de los datos para su análisis y, por ende, su posterior uso en la toma de decisiones.\\
+
+En este contexto, el procesamiento y la limpieza de los datos clínicos se convierten en etapas fundamentales dentro de las instituciones de salud. Los errores en las fases de preparación y limpieza afectan directamente los resultados derivados de estos datos, lo que resalta la necesidad de comprender y estructurar adecuadamente dichos procesos \parencite{albu_challenges_2025}.\\
+
+En el caso del Hospital Susana López de Valencia, en el area de epidemiología, el proceso de análisis de morbilidad se basa en la extracción y limpieza de datos provenientes de registros clínicos institucionales \parencite{Procedimiento_Morbilidad_HSLV}. Actualmente, este proceso es realizado de manera manual, lo que implica la aplicación de criterios no estandarizados y la ausencia de mecanismos formales de trazabilidad y validación. Esta situación puede generar pérdida de información relevante, inconsistencias en los resultados y limitaciones en la confiabilidad de los análisis realizados.
+
 
 \subsection{Pregunta de Investigación}
-¿Cuál es la pregunta central que orienta esta investigación?
+¿Cómo implementar un proceso de limpieza de datos que garantice la trazabilidad, estandarización y confiabilidad de la información de morbilidad en el área de epidemiología del Hospital Susana López de Valencia?
 
 \subsection{Planteamiento del Problema}
-Describe aquí el problema que motiva el proyecto. Puedes citar fuentes
-con \parencite{apellido2024} (formato APA entre paréntesis) o con
-\textcite{apellido2024} (formato APA integrado en la oración).
+La calidad de los datos en el sector salud constituye un elemento fundamental para la toma de decisiones clínicas, dado que estos provienen de datos del mundo real (RWD) recopilados mediante registros electrónicos de salud (EHR), a partir de los cuales se genera evidencia del mundo real (RWE), utilizada en procesos clínicos y epidemiológicos \parencite{lighterness_data_2024}.
 
+No obstante, diversos estudios han evidenciado que las fuentes de datos clínicos presentan inconsistencias y problemas de calidad, tales como valores faltantes, errores de formato, valores atípicos e incoherencias semánticas, lo cual compromete su utilidad y confiabilidad para el análisis \textcite{ben_scalable_2024}. Estas deficiencias impactan directamente los resultados obtenidos a partir de dichos datos, afectando procesos posteriores como el análisis epidemiológico y la toma de decisiones.
+
+En este sentido, el procesamiento y la limpieza de los datos clínicos se convierten en etapas críticas dentro de los sistemas de información en salud. Errores en estas fases pueden propagarse a lo largo del análisis, generando resultados inconsistentes o poco confiables, lo que resalta la necesidad de estructurar adecuadamente dichos procesos \parencite{albu_challenges_2025}. Además, la integración y manejo de datos en entornos clínicos es un proceso complejo que involucra múltiples fuentes y estructuras, lo que incrementa la probabilidad de inconsistencias si no existen mecanismos adecuados de control \parencite{petri_clinical_2025}.
+
+En el contexto del Hospital Susana López de Valencia, el análisis de morbilidad se realiza a partir de datos provenientes del sistema institucional, los cuales son sometidos a un proceso de limpieza previo al análisis. Sin embargo, este proceso se ejecuta de manera manual, sin la existencia de criterios estandarizados ni mecanismos formales de trazabilidad que permitan documentar las decisiones tomadas durante la depuración de los datos \parencite{Procedimiento_Morbilidad_HSLV}.
+
+Adicionalmente, el levantamiento de requerimientos evidencia que la limpieza de datos presenta inconsistencias en la aplicación de criterios, así como la eliminación de información potencialmente relevante, especialmente en diagnósticos secundarios, lo cual puede afectar la representatividad de los datos analizados \parencite{SRS_Morbilidad_2026}. Esta situación se ve agravada por la ausencia de mecanismos de validación que permitan verificar la calidad y consistencia de los resultados obtenidos, dificultando la reproducibilidad del proceso y la confiabilidad de los análisis generados.
+
+En consecuencia, la falta de organización, trazabilidad, estandarización y validación en el proceso de limpieza de datos de morbilidad limita la calidad de la información disponible para el análisis epidemiológico en la institución, lo que puede repercutir en la toma de decisiones basada en dichos datos.
 \subsection{Justificación}
-Explica por qué es importante resolver este problema y qué valor aporta
-la investigación para la institución, la comunidad o la industria.
+La calidad de los datos en el sector salud representa un factor determinante en la generación de información confiable para la toma de decisiones clínicas y administrativas. En este contexto, los datos provenientes de registros electrónicos de salud constituyen una fuente principal para el análisis de fenómenos como la morbilidad, los cuales permiten comprender el comportamiento de enfermedades dentro de una población. Sin embargo, diversos estudios han evidenciado que los datos del mundo real suelen presentar problemas de calidad, tales como inconsistencias, valores faltantes, errores de formato e incoherencias semánticas, lo cual compromete su utilidad para el análisis y la toma de decisiones \parencite{lighterness_data_2024, ben_scalable_2024}.
+
+Adicionalmente, el procesamiento y la preparación de estos datos representan etapas críticas dentro de los flujos de análisis en salud, ya que los errores introducidos en estas fases afectan directamente los resultados posteriores. La literatura resalta la necesidad de estructurar adecuadamente estos procesos, dado que la falta de control, estandarización y validación puede derivar en resultados inconsistentes o poco confiables \parencite{albu_challenges_2025, petri_clinical_2025}. Asimismo, se ha identificado que la ausencia de procesos formales para evaluar la calidad de los datos dificulta determinar si estos son adecuados para su uso en investigación o análisis clínico, lo que evidencia la necesidad de implementar mecanismos de control y validación \parencite{blacketer_using_2021}.
+
+En el contexto del Hospital Susana López de Valencia, el proceso de análisis de morbilidad se basa en la limpieza y depuración de datos provenientes de registros clínicos institucionales. Actualmente, este proceso se realiza de manera manual, lo que implica la aplicación de criterios no estandarizados y la ausencia de mecanismos formales de trazabilidad y validación. Esta situación puede generar pérdida de información relevante, inconsistencias en los resultados y limitaciones en la confiabilidad de los análisis, afectando potencialmente la calidad de la información utilizada para la toma de decisiones dentro de la institución.
+
+En este sentido, se hace necesaria la implementación de un proceso estructurado que permita organizar, estandarizar y garantizar la trazabilidad en la limpieza de datos de morbilidad, así como incorporar mecanismos de validación que aseguren la calidad y confiabilidad de la información generada. La adopción de este tipo de enfoques no solo contribuye a mejorar la consistencia de los resultados, sino que también permite fortalecer la reproducibilidad de los análisis y la transparencia en el manejo de los datos.
+
+Por tanto, el presente proyecto se justifica en la necesidad de abordar un problema real dentro del contexto hospitalario, mediante la aplicación de estrategias que permitan mejorar el proceso de limpieza de datos de morbilidad, contribuyendo así a la generación de información más confiable para el análisis epidemiológico y la toma de decisiones en el Hospital Susana López de Valencia.
 
 \subsection{Objetivos}
 
 \subsubsection{Objetivo General}
-Redacta aquí el objetivo general del proyecto. Inicia con un verbo en
-infinitivo (p.\,ej., Diseñar, Desarrollar, Implementar).
+Implementar un proceso de limpieza de datos que garantice la trazabilidad, estandarización y confiabilidad de la información de morbilidad en el área de epidemiología del Hospital Susana López de Valencia.
 
 \subsubsection{Objetivos Específicos}
 % Lista numerada con \begin{enumerate}
 \begin{enumerate}[label=\arabic*.]   % Numeración 1. 2. 3.
-  \item Primer objetivo específico.
-  \item Segundo objetivo específico.
-  \item Tercer objetivo específico.
+  \item Diseñar un proceso de trazabilidad y documentación que permita registrar las decisiones tomadas durante la limpieza de datos de morbilidad.
+  \item Definir criterios técnicos y estandarizados para la selección y limpieza de los datos de morbilidad provenientes del sistema institucional.
+  \item Implementar mecanismos de validación que permitan evaluar la calidad, consistencia y confiabilidad de los datos procesados.
   % Agrega o elimina ítems según necesites
 \end{enumerate}
 
 \subsection{Alcance y Limitaciones}
-Define hasta dónde llega el proyecto y cuáles son las restricciones o
-condiciones que acotan su desarrollo.
+\subsubsection{Alcance}
 
-\subsection{Hipótesis}
-% Esta sección es opcional. Si no aplica, puedes eliminarla o comentarla
-% poniendo % al inicio de cada línea.
-Plantea aquí la hipótesis del proyecto (cuando aplique).
-\parencite{hijji_multivocal_2021}
+El presente proyecto contempla la implementación de un proceso estructurado para la limpieza de datos de morbilidad en el área de epidemiología del Hospital Susana López de Valencia. Este proceso incluye el análisis exploratorio y perfilamiento de los datos, con el fin de comprender su estructura, identificar problemas de calidad y definir criterios adecuados para su tratamiento.
+
+Asimismo, el proyecto abarca la definición de reglas de limpieza, la incorporación de mecanismos de trazabilidad que permitan registrar las decisiones tomadas durante el proceso, y la implementación de procedimientos de validación orientados a evaluar la calidad, consistencia y confiabilidad de los datos procesados.
+
+El proceso será implementado mediante herramientas de análisis de datos y diseñado de tal forma que pueda ser ejecutado y utilizado por el personal encargado del proceso actual, permitiendo su aplicación práctica sobre los datos institucionales.
+
+El proceso será aplicado sobre datos reales proporcionados por la institución, correspondientes a registros de pacientes en el periodo comprendido entre enero y marzo del 2025, lo que permitirá evaluar su funcionamiento en un contexto real y contrastarlo con el método actual de limpieza manual.
+
+\subsubsection{Limitaciones del alcance}
+
+El proceso implementado no contempla su integración directa con los sistemas institucionales del hospital, por lo que su ejecución se realizará de manera independiente al flujo operativo actual.
+
+El acceso y uso de los datos estará sujeto a las condiciones establecidas por la institución, garantizando en todo momento la confidencialidad de la información y el uso exclusivo con fines académicos, evitando la exposición o uso indebido de datos personales sensibles.
+
+Finalmente, el proceso será evaluado sobre un conjunto específico de datos correspondiente a un periodo determinado, por lo que su comportamiento frente a otros conjuntos de datos deberá analizarse en futuros trabajos.
 
 \newpage
 
@@ -231,25 +262,37 @@ Define y desarrolla los conceptos clave que sustentan el proyecto.
 \section{Análisis del Problema}
 
 \subsection{Análisis del Problema}
-Desarrolla aquí el análisis detallado del problema identificado.
+El proceso de limpieza de datos de morbilidad en el área de epidemiología del Hospital Susana López de Valencia presenta deficiencias relacionadas con la falta de organización, trazabilidad y estandarización. Estas deficiencias afectan la calidad de la información utilizada para el análisis epidemiológico y la toma de decisiones dentro de la institución.
+
+En primer lugar, se identifica la ausencia de mecanismos de trazabilidad que permitan registrar y documentar las decisiones tomadas durante el proceso de limpieza de datos. Esto impide conocer el origen de las modificaciones realizadas, dificultando la auditoría y reproducibilidad del proceso.
+
+En segundo lugar, la aplicación de criterios de limpieza no estandarizados genera inconsistencias en el tratamiento de los datos. La falta de lineamientos técnicos claros puede derivar en la eliminación de información relevante, particularmente en diagnósticos secundarios, afectando la representatividad de los datos analizados.
+
+Adicionalmente, se evidencia la ausencia de mecanismos de validación que permitan verificar la calidad y consistencia de los resultados obtenidos. Esto limita la confiabilidad del proceso, ya que no existen procedimientos formales para evaluar si los datos procesados cumplen con condiciones adecuadas para su análisis.
+
+Como consecuencia de estas problemáticas, se generan efectos negativos como la pérdida de información relevante, inconsistencias en los resultados y limitaciones en la confiabilidad de los análisis epidemiológicos. En conjunto, estos factores pueden impactar la calidad de la información utilizada para la toma de decisiones dentro de la institución.
+
+Por lo tanto, se hace necesario estructurar un proceso de limpieza de datos que incorpore mecanismos de trazabilidad, estandarización y validación, con el fin de mejorar la calidad y confiabilidad de la información de morbilidad.
 
 \subsection{Árbol de Problemas}
-% Para insertar una imagen usa:
-%   \includegraphics[width=\textwidth]{nombre_del_archivo.png}
-% Guarda la imagen en la misma carpeta que este archivo .tex.
-% Ejemplo:
-%
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=0.85\textwidth]{arbol_problemas.png}
-%   \caption{\textit{Nota.} Descripción del árbol de problemas.}
-%   \label{fig:arbol_problemas}
-% \end{figure}
 
-[Inserta aquí el diagrama del árbol de problemas]
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{Arbol_Problemas.png}
+  \caption{\textit{Nota.} Árbol de problemas del proceso de limpieza de datos de morbilidad en el área de epidemiología del Hospital Susana López de Valencia.}
+  \label{fig:arbol_problemas}
+\end{figure}
+
+\newpage
 
 \subsection{Árbol de Objetivos}
-[Inserta aquí el diagrama del árbol de objetivos]
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{Arbol_Problemas.png}
+  \caption{\textit{Nota.} Árbol de objetivos del proceso de limpieza de datos de morbilidad en el área de epidemiología del Hospital Susana López de Valencia.}
+  \label{fig:arbol_objetivos}
+\end{figure}
 
 \newpage
 
@@ -293,34 +336,8 @@ Capítulo~3 para insertar imágenes).
 \newpage
 
 
-% ============================================================
-%  CAPÍTULO 6 – PRESUPUESTO
-% ============================================================
-\section{Presupuesto}
-
-\subsection{Recursos Materiales}
-Lista los materiales, equipos y licencias necesarios para el proyecto.
-
-\subsection{Recursos Humanos}
-Describe el equipo de trabajo y sus roles.
-
-\subsection{Costos Estimados}
-[Inserta aquí la tabla de costos estimados]
-
-\newpage
 
 
-% ============================================================
-%  CAPÍTULO 7 – MATRIZ DE RIESGOS
-% ============================================================
-\section{Matriz de Riesgos}
-
-Identifica los principales riesgos del proyecto, su probabilidad de
-ocurrencia, su impacto potencial y las estrategias de mitigación.
-
-[Inserta aquí la tabla de matriz de riesgos]
-
-\newpage
 
 
 % ============================================================

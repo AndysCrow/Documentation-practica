@@ -3059,11 +3059,24 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">apellido2024</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">apellido2024</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">apellido2024</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">hijji_multivocal_2021</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">autor2022</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">lighterness_data_2024</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">ben_scalable_2024</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">ben_scalable_2024</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">albu_challenges_2025</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Procedimiento_Morbilidad_HSLV</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">lighterness_data_2024</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">ben_scalable_2024</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">ben_scalable_2024</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">albu_challenges_2025</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">petri_clinical_2025</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Procedimiento_Morbilidad_HSLV</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">SRS_Morbilidad_2026</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">lighterness_data_2024</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">ben_scalable_2024</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">albu_challenges_2025</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">petri_clinical_2025</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">blacketer_using_2021</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">autor2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
