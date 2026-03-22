@@ -302,22 +302,89 @@ Por lo tanto, se hace necesario estructurar un proceso de limpieza de datos que 
 % ============================================================
 \section{Metodología}
 
-\subsection{Tipo de Estudio / Diseño de Investigación}
-Describe el enfoque metodológico (cuantitativo, cualitativo, mixto) y
-el tipo de investigación (exploratoria, descriptiva, experimental, etc.).
 
-\subsection{Población y Muestra}
-Caracteriza la población de estudio y explica el proceso de muestreo.
+\subsection{Tipo de investigación}
 
-\subsection{Técnicas e Instrumentos de Recolección de Datos}
-Describe las técnicas utilizadas (entrevistas, encuestas, observación,
-análisis documental, etc.) y los instrumentos asociados.
+El presente proyecto se enmarca en una investigación aplicada, orientada a la solución de un problema real dentro del contexto del Hospital Susana López de Valencia. Específicamente, corresponde a un proyecto de desarrollo tecnológico, dado que propone la implementación de un proceso estructurado para la limpieza de datos de morbilidad.
 
-\subsection{Procedimiento}
-Detalla paso a paso cómo se llevará a cabo la investigación.
+Adicionalmente, el proyecto incorpora un componente de validación empírica, al evaluar el comportamiento del proceso propuesto sobre datos reales y compararlo con el método actual de limpieza manual.
 
-\subsection{Análisis de Datos}
-Explica cómo procesarás e interpretarás los datos recolectados.
+\subsection{Enfoque de la investigación}
+
+La investigación adopta un enfoque cuantitativo, debido a que se basa en el análisis de datos clínicos estructurados, la aplicación de reglas de limpieza y la evaluación de resultados mediante métricas de calidad de datos.
+
+Este enfoque permite medir la consistencia, completitud y confiabilidad de los datos antes y después de aplicar el proceso propuesto.
+
+\subsection{Métodos y técnicas de recolección de datos}
+
+Los datos utilizados en el proyecto serán proporcionados por el Hospital Susana López de Valencia, correspondientes a registros de morbilidad en formato Excel, que contienen diagnósticos codificados bajo la clasificación CIE-10.
+
+La recolección de datos se realizará mediante el acceso a estos archivos institucionales, los cuales representan el insumo principal para el desarrollo del proceso de limpieza.
+
+No se contemplan técnicas de recolección como encuestas o entrevistas, ya que el enfoque del proyecto es técnico y centrado en el procesamiento de datos existentes.
+
+\subsection{Procedimiento metodológico}
+
+El desarrollo del proyecto se llevará a cabo mediante un proceso estructurado de limpieza de datos, compuesto por las siguientes etapas:
+
+\begin{enumerate}
+
+\item \textbf{Recolección de datos:} Obtención de los archivos de morbilidad en formato Excel proporcionados por la institución, correspondientes al periodo de estudio definido.
+
+\item \textbf{Perfilamiento de datos:} Análisis exploratorio de los datos (data profiling) para identificar su estructura, tipos de variables, valores faltantes, inconsistencias, duplicados y patrones relevantes.
+
+\item \textbf{Definición de criterios de limpieza:} Establecimiento de reglas técnicas para el tratamiento de los datos, incluyendo criterios para selección de diagnósticos, manejo de valores nulos, normalización de formatos y validación de códigos CIE-10.
+
+\item \textbf{Implementación del proceso de limpieza:} Aplicación de las reglas definidas mediante herramientas de análisis de datos, transformando los datos originales en un conjunto estructurado y consistente.
+
+\item \textbf{Trazabilidad del proceso:} Registro de las decisiones tomadas durante la limpieza de datos, permitiendo documentar los criterios aplicados y facilitar la reproducibilidad del proceso.
+
+\item \textbf{Validación de resultados:} Evaluación de la calidad de los datos procesados mediante la verificación de consistencia, comparación con el proceso manual y análisis de diferencias en los resultados obtenidos.
+
+\end{enumerate}
+
+\subsection{Técnicas de análisis de datos}
+
+El análisis del proceso propuesto se centrará en la evaluación de su consistencia, trazabilidad y reproducibilidad, más que en la corrección de errores en los datos.
+
+En este sentido, se analizarán los siguientes aspectos:
+
+\begin{itemize}
+\item Reproducibilidad del proceso, verificando que la aplicación de las mismas reglas genere resultados consistentes en diferentes ejecuciones.
+\item Trazabilidad de las decisiones, asegurando que cada transformación aplicada a los datos pueda ser identificada y justificada.
+\item Consistencia del proceso frente al método manual actual, evaluando si los resultados dependen de criterios definidos y no de decisiones individuales.
+\item Comparación de resultados con el proceso manual, identificando diferencias en la selección y tratamiento de los datos.
+\end{itemize}
+
+Estos elementos permitirán determinar si el proceso propuesto mejora la confiabilidad y transparencia en la limpieza de los datos de morbilidad.
+
+\subsection{Herramientas y recursos}
+
+El desarrollo del proyecto se apoyará en herramientas de análisis de datos, específicamente:
+
+\begin{itemize}
+\item Lenguaje de programación Python
+\item Entorno de desarrollo Jupyter Notebook
+\item Librerías de procesamiento de datos como Pandas y NumPy
+\end{itemize}
+
+Estas herramientas permitirán implementar un flujo reproducible de procesamiento, facilitando la ejecución, documentación y validación del proceso de limpieza.
+
+\subsection{Consideraciones éticas}
+
+El proyecto se desarrollará utilizando datos reales proporcionados por la institución, por lo que se garantizará en todo momento la confidencialidad de la información.
+
+Los datos serán utilizados exclusivamente con fines académicos, evitando la exposición de información sensible o identificable de los pacientes. En caso de ser necesario, se aplicarán procesos de anonimización para proteger la identidad de los individuos.
+
+Asimismo, el acceso a los datos estará sujeto a las condiciones establecidas por el hospital, asegurando el cumplimiento de las políticas institucionales y normativas relacionadas con el manejo de información en el sector salud.
+
+\subsection{Validez y confiabilidad}
+
+La validez del proceso se garantizará mediante la correcta definición de criterios de limpieza basados en el análisis de los datos y en el contexto institucional.
+
+La confiabilidad se asegurará a través de la reproducibilidad del proceso, permitiendo aplicar las mismas reglas sobre distintos conjuntos de datos y obtener resultados consistentes.
+
+Adicionalmente, la comparación con el proceso manual actual permitirá evaluar la coherencia y utilidad de los resultados obtenidos.
 
 \newpage
 

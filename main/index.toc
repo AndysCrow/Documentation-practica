@@ -19,15 +19,18 @@
 \contentsline {subsection}{\numberline {3.2}Árbol de Problemas}{10}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Árbol de Objetivos}{11}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Metodología}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Tipo de Estudio / Diseño de Investigación}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Población y Muestra}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Técnicas e Instrumentos de Recolección de Datos}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Procedimiento}{12}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Análisis de Datos}{12}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Plan de Trabajo y Cronograma}{13}{section.5}%
-\contentsline {section}{\numberline {6}Resultados Esperados e Impacto}{14}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Productos o Entregables Esperados}{14}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Beneficios para la Institución, Comunidad o Industria}{14}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Cronograma de Implementación}{15}{section.7}%
-\contentsline {section}{\numberline {8}Referencias Bibliográficas}{16}{section.8}%
-\contentsline {section}{Anexos}{17}{section*.4}%
+\contentsline {subsection}{\numberline {4.1}Tipo de investigación}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Enfoque de la investigación}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Métodos y técnicas de recolección de datos}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Procedimiento metodológico}{13}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Técnicas de análisis de datos}{13}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Herramientas y recursos}{14}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Consideraciones éticas}{14}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Validez y confiabilidad}{15}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Plan de Trabajo y Cronograma}{16}{section.5}%
+\contentsline {section}{\numberline {6}Resultados Esperados e Impacto}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Productos o Entregables Esperados}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Beneficios para la Institución, Comunidad o Industria}{17}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Cronograma de Implementación}{18}{section.7}%
+\contentsline {section}{\numberline {8}Referencias Bibliográficas}{19}{section.8}%
+\contentsline {section}{Anexos}{20}{section*.4}%
