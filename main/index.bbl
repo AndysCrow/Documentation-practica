@@ -243,6 +243,49 @@
       \verb https://www.mdpi.com/2076-3417/11/24/11920
       \endverb
     \endentry
+    \entry{bohorquez_desarrollo_2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62f2670fa2cb9bd23d1f8eec591f5210}{%
+           family={Bohórquez},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spa}%
+      }
+      \list{publisher}{1}{%
+        {Tecnológico de Antioquia, Institución Universitaria}%
+      }
+      \strng{namehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{fullhash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{bibnamehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{authorbibnamehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{authornamehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{authorfullhash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este estudio se centra en el desarrollo de 'RIPS Inspector', una metodología diseñada para identificar errores en los Registros Individuales de Prestación de Servicios de Salud (RIPS) en Colombia. Enmarcado en un contexto donde la calidad de los datos es fundamental dentro de los sistemas de información del sector salud en Colombia, resaltando la importancia de contar con registros fiables y exactos con el fin de ser utilizados en estudios y análisis descriptivos. Es así que 'RIPS Inspector' aplica un enfoque estructurado y específico para la identificación de posibles errores en los datos de los RIPS. Diseñada para adaptarse a diferentes contextos y necesidades del sistema de salud, esta herramienta demuestra ser particularmente útil y flexible. Los hallazgos del estudio revelan la eficiencia de 'RIPS Inspector' en detectar errores, contribuyendo significativamente a la mejora de la calidad de los datos en el ámbito de la salud. El trabajo destaca la relevancia de 'RIPS Inspector' en el actual panorama del sector salud en Colombia, enfatizando su potencial para optimizar la gestión de datos de salud y fortalecer la toma de decisiones basada en información precisa. A pesar de enfrentar desafíos como la integración en sistemas existentes y la variabilidad en la calidad inicial de los datos, estos aspectos resaltan la necesidad de una continua evolución en este campo. En conclusión, se recomienda emplear 'RIPS Inspector' como una guía adaptable y flexible, subrayando la importancia de personalizar su aplicación según las necesidades específicas de cada contexto de implementación.}
+      \field{month}{5}
+      \field{title}{Desarrollo de una metodología para el análisis de la información del proceso de {RIPS} en el sector salud}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/andres-crow/Zotero/storage/R89DALH7/Bohórquez - 2024 - Desarrollo de una metodología para el análisis de la información del proceso de RIPS en el sector sa.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dspace.tdea.edu.co/handle/tdea/5830
+      \endverb
+      \verb{url}
+      \verb https://dspace.tdea.edu.co/handle/tdea/5830
+      \endverb
+    \endentry
     \entry{SRS_Morbilidad_2026}{report}{}
       \list{institution}{1}{%
         {Hospital Susana López de Valencia}%
@@ -259,6 +302,145 @@
       \field{title}{Especificación de Requerimientos de Datos (SRS/DRS) para la Plataforma de Análisis de Morbilidad Institucional}
       \field{type}{Documento técnico de levantamiento de requerimientos}
       \field{year}{2026}
+    \endentry
+    \entry{essen_implications_2025}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=49f6065814f5f7f77451af9278163350}{%
+           family={Essen},
+           familyi={E\bibinitperiod},
+           given={Melissa\bibnamedelimb H.\bibnamedelimi J.\bibnamedelimi van},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25029e38d7bc965f9500aae474c6a1df}{%
+           family={Twickler},
+           familyi={T\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62558ccabc7553e8a0fa07e28384ddd7}{%
+           family={Weesie},
+           familyi={W\bibinitperiod},
+           given={Yvette\bibnamedelima M.},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a6085f21054a831e2e41aa8a84b3da6}{%
+           family={Arslan},
+           familyi={A\bibinitperiod},
+           given={Ilgin\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e71385693b92f0274b1dbde4f6307f40}{%
+           family={Groenhof},
+           familyi={G\bibinitperiod},
+           given={Feikje},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05464e4d677d91ad915924584a7102ad}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Lilian\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdaa8652c962b7ce912cada133b6c9d9}{%
+           family={Bos},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58ab5f39530680f3dbfb31aae05831a7}{%
+           family={Verheij},
+           familyi={V\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \list{publisher}{1}{%
+        {JMIR Publications Inc., Toronto, Canada}%
+      }
+      \strng{namehash}{6017f9c73b1ea4dd1a57bf9041dddb60}
+      \strng{fullhash}{141fef6488e14270aee87eced24fb838}
+      \strng{bibnamehash}{141fef6488e14270aee87eced24fb838}
+      \strng{authorbibnamehash}{141fef6488e14270aee87eced24fb838}
+      \strng{authornamehash}{6017f9c73b1ea4dd1a57bf9041dddb60}
+      \strng{authorfullhash}{141fef6488e14270aee87eced24fb838}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Further use of routinely recorded data in electronic health records (EHR) is increasingly more common, for example in epidemiological research. However, data need to be processed and prepared to allow for this further use. Within this process, different choices can be made, which could have significant consequences for research outcomes. Objective: The aim of this study was to investigate the influence of data processing steps involved in the secondary use of EHR data on research outcomes. Methods: This study used EHR data from eight Dutch general practices from 2019. These practices contributed data to two research databases: the Academic General Practitioner Development Network (AHON) registry and the Nivel Primary Care Database (Nivel-PCD). Data were extracted and processed using distinct data processing pipelines. This allowed for the evaluation of the impact of different processing methods by comparing the two datasets in a three-step approach: 1) patient demographics, 2) epidemiology of concordant patients, 3) health service utilization of patients with three diagnoses. We compared a number of indicators of similarity between the two databases, including number of contacts, regular consultations and visits, prescriptions, and episodes. Subsequently, for these three diagnoses (diabetes mellitus (DM), urinary tract infection (UTI), cough) we calculated the prevalence, number of prescriptions and number of regular consultations and visits per 1000 patient years. The outcomes were compared by performing two sample t-tests using 99\% confidence intervals. Results: There was a difference in the number of enrolled patients between the two datasets (AHON registry N= 47,517, Nivel-PCD N=44,247). However, the patient demographics were similar. We found differences between all indicator outcomes of the concordant patients in both databases, i.e., the number of contacts, prescriptions and episodes per patient, except for the number of regular consultations and visits (P=.46). Differences in the indicator outcomes varied between the three diagnosis groups, whereas the number of regular consultations and visits was similar between databases for all diagnoses (DM P={<}.55, UTI P=.73, cough P=.73) Conclusions: The results illustrate the importance of awareness of researchers and other users of routine health data of the different steps in processing these data and making them available for research. Data processors should share their knowledge about these choices and researchers and policymakers should invest in their knowledge of this type of metadata. This transparency is all the more important in light of a European Health Data Space and the ever-increasing secondary use of routinely recorded health data. Future research should focus on the role of transparency and joint decision making, to minimize effects of data processing steps and to gain insight into the individual influence of processing steps on research outcomes. This could stimulate a common approach among data processors and researchers resulting in increased data interoperability.}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shorttitle}{Implications of {Data} {Extraction} and {Processing} of {Electronic} {Health} {Records} for {Epidemiological} {Research}}
+      \field{title}{Implications of {Data} {Extraction} and {Processing} of {Electronic} {Health} {Records} for {Epidemiological} {Research}: {Observational} {Study}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{e64628}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/64628
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/andres-crow/Zotero/storage/F9VJYPNL/Essen et al. - 2025 - Implications of Data Extraction and Processing of Electronic Health Records for Epidemiological Rese.pdf:application/pdf;Snapshot:/home/andres-crow/Zotero/storage/6NX8P3JU/e64628.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jmir.org/2025/1/e64628
+      \endverb
+      \verb{url}
+      \verb https://www.jmir.org/2025/1/e64628
+      \endverb
+    \endentry
+    \entry{huguett_aragon_calidad_2014}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a38a8a7f77282b1a0a8f16d3c6569d61}{%
+           family={Huguett\bibnamedelima Aragón},
+           familyi={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \list{publisher}{1}{%
+        {Bogotá, Colombia}%
+      }
+      \strng{namehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{fullhash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{bibnamehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{authorbibnamehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{authornamehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{authorfullhash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Calidad de los {Registros} {Individuales} de {Prestación} de {Servicios} como fuente de información para el {Sistema} de {Vigilancia} en {Salud} {Pública} en {Colombia}.}
+      \field{type}{Tesis de maestría}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content
+      \endverb
+      \verb{url}
+      \verb https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content
+      \endverb
     \endentry
     \entry{lighterness_data_2024}{article}{}
       \name{author}{4}{}{%
@@ -325,6 +507,129 @@
       \endverb
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11377907/
+      \endverb
+    \endentry
+    \entry{medrano_caracterizacion_2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0c96e61cf59f3ec663fe7b23137c146}{%
+           family={Medrano},
+           familyi={M\bibinitperiod},
+           given={Sandra\bibnamedelima Milena},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f3d55a11c8476edbe516dc65039c91b}{%
+           family={C},
+           familyi={C\bibinitperiod},
+           given={Myriam\bibnamedelimb Teresa\bibnamedelima Mayorga},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{fullhash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{bibnamehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{authorbibnamehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{authornamehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{authorfullhash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{\&lt;em\&gt;\&lt;strong\&gt;Objective\&lt;/strong\&gt;\&lt;em\&gt; To characterize the visual and ocular morbidity of the population treated in Colombia based on the reports from the individual records of the provision of health services (RIPS), Chapter VII of the International Classification of Diseases, 10th Version (ICD-10), years 2009-2010. \&lt;em\&gt;\&lt;strong\&gt;Materials and methods\&lt;/strong\&gt;\&lt;em\&gt; A descriptive retrospective observational study was conducted of the visual and ocular morbidity of the population treated in Colombia according to the RIPS reports the 58 diagnostic codes were reclassified into 18 categories, according to the Reisvo classification the demographic variables of age, gender and health protection scheme were taken into consideration, as well as the clinical variable of diagnosis code univariate and bivariate analysis were performed. \&lt;em\&gt;\&lt;strong\&gt;Results\&lt;/strong\&gt;\&lt;em\&gt; 775,989 RIPS from 2009 and 1,605,714 from 2010 were analyzed, corresponding to Chapter VII of ICD-10 most of them were female, 54.3\% from 2009 and 58.4\% from 2010. The predominant health scheme was the contributive scheme, with 73\% for both years. The most frequent diagnostic groups in 2009 were disorders of the conjunctiva (55.9 \%), accommodation and refractive disorders (23.1 \%), eyelid disorders (9.9\%), blindness and decreased visual acuity (2.2 \%) for 2010, they were: accommodation and refractive disorders (44 \%), disorders of the conjunctiva (23.4 \%), eyelid disorders (4.4 \%), blindness and decreased visual acuity (3.8 \%) and glaucoma (3.7 \%). \&lt;em\&gt;\&lt;strong\&gt;Conclusions\&lt;/strong\&gt;\&lt;em\&gt; The most prevalent diagnoses in the two years evaluated were: accommodation and refractive disorders, and disorders of the conjunctiva.}
+      \field{issn}{2389-8801}
+      \field{journaltitle}{Ciencia y Tecnología para la Salud Visual y Ocular}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Caracterización de la morbilidad visual y ocular de la población atendida en {Colombia}, según los reportes de los {RIPS}, 2009 y 2010}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 64}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.19052/sv.2870
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/andres-crow/Zotero/storage/3SNP2Z42/Medrano and C - 2015 - Caracterización de la morbilidad visual y ocular de la población atendida en Colombia, según los rep.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://saludvisual.lasalle.edu.co/article/view/1536
+      \endverb
+      \verb{url}
+      \verb https://saludvisual.lasalle.edu.co/article/view/1536
+      \endverb
+      \keyw{Colombia,morbilidad ocular,morbilidad visual,ocular morbidity,records,registros,visual morbidity}
+    \endentry
+    \entry{ozonze_automating_2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5ec8c26427ccaf76d11cc0d8be5b60e9}{%
+           family={Ozonze},
+           familyi={O\bibinitperiod},
+           given={Obinwa},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2de2b1910a52dd750f03dbf592643b3}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Philip\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc83e3ce3c2e7960caf6ac99dddf6f42}{%
+           family={Hopgood},
+           familyi={H\bibinitperiod},
+           given={Adrian\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8527768377d9055cbb3960c995a05bfa}
+      \strng{fullhash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \strng{bibnamehash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \strng{authorbibnamehash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \strng{authornamehash}{8527768377d9055cbb3960c995a05bfa}
+      \strng{authorfullhash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Information systems such as Electronic Health Record (EHR) systems are susceptible to data quality (DQ) issues. Given the growing importance of EHR data, there is an increasing demand for strategies and tools to help ensure that available data are fit for use. However, developing reliable data quality assessment (DQA) tools necessary for guiding and evaluating improvement efforts has remained a fundamental challenge. This review examines the state of research on operationalising EHR DQA, mainly automated tooling, and highlights necessary considerations for future implementations. We reviewed 1841 articles from PubMed, Web of Science, and Scopus published between 2011 and 2021. 23 DQA programs deployed in real-world settings to assess EHR data quality ( n  = 14), and a few experimental prototypes ( n  = 9), were identified. Many of these programs investigate completeness ( n  = 15) and value conformance ( n  = 12) quality dimensions and are backed by knowledge items gathered from domain experts ( n  = 9), literature reviews and existing DQ measurements ( n  = 3). A few DQA programs also explore the feasibility of using data-driven techniques to assess EHR data quality automatically. Overall, the automation of EHR DQA is gaining traction, but current efforts are fragmented and not backed by relevant theory. Existing programs also vary in scope, type of data supported, and how measurements are sourced. There is a need to standardise programs for assessing EHR data quality, as current evidence suggests their quality may be unknown.}
+      \field{issn}{1573-689X}
+      \field{journaltitle}{Journal of Medical Systems}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Automating {Electronic} {Health} {Record} {Data} {Quality} {Assessment}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{47}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10916-022-01892-2
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/HNJTJM27/Ozonze et al. - 2023 - Automating Electronic Health Record Data Quality Assessment.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s10916-022-01892-2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10916-022-01892-2
       \endverb
     \endentry
     \entry{petri_clinical_2025}{article}{}
@@ -423,6 +728,259 @@
       \field{note}{Código: SLV-GC-01, Documento institucional de gestión clínica y epidemiológica}
       \field{title}{Procedimiento de Morbilidad Institucional}
       \field{year}{s.f.}
+    \endentry
+    \entry{razzaghi_systematic_2024}{article}{}
+      \name{author}{23}{}{%
+        {{un=0,uniquepart=base,hash=8a122bca9ac87eaec31380fa925d9753}{%
+           family={Razzaghi},
+           familyi={R\bibinitperiod},
+           given={Hanieh},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbc3e893c461e96055fb693de9df1f05}{%
+           family={Goodwin\bibnamedelima Davies},
+           familyi={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21dead6e6b9540465f41b7fcbe0743a0}{%
+           family={Boss},
+           familyi={B\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df483a5ce8db786a59e18ed3254ae1d6}{%
+           family={Bunnell},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi Timothy},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7608dbf6c54dadf166f77046db3c64a6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8f46b1fa63d651a9b6e8d1cc1f6ee50}{%
+           family={Chrischilles},
+           familyi={C\bibinitperiod},
+           given={Elizabeth\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b749b3ae7278679b46c41e0db687bb19}{%
+           family={Dickinson},
+           familyi={D\bibinitperiod},
+           given={Kimberley},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6c44be9dfb753dec3a5222329c8323c}{%
+           family={Hanauer},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5dd822e42e264e595fd0177b7c13762c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yungui},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d01816be2f193fe775da426c4aeb79b}{%
+           family={Ilunga},
+           familyi={I\bibinitperiod},
+           given={K.\bibnamedelimi T.\bibnamedelimi Sandra},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac4f939f21f059633fe82091e2d31b90}{%
+           family={Katsoufis},
+           familyi={K\bibinitperiod},
+           given={Chryso},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3315dedad36452676a3985e988143c27}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Harold},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fee9a9eb24b62bc653784c9268bf35c8}{%
+           family={Lemas},
+           familyi={L\bibinitperiod},
+           given={Dominick\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca13756c15fc377832c90bda3fb136f7}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9037f06c8113703a8f8753564aafafa}{%
+           family={Mendonca},
+           familyi={M\bibinitperiod},
+           given={Eneida\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69842457989ccea6cba189ff25ba639e}{%
+           family={Morse},
+           familyi={M\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d5f1f2e0099f2b5897523dcc3c65962}{%
+           family={Ranade},
+           familyi={R\bibinitperiod},
+           given={Daksha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8593a9213366f1055238aae51d5b9baf}{%
+           family={Rosenman},
+           familyi={R\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61c3e9fba039332332abcb073641d97a}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Bradley},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78942c7cd6b65229677ffe6197d6b36d}{%
+           family={Walters},
+           familyi={W\bibinitperiod},
+           given={Kellie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbfef18ac429adf70c3a7edf4c4bbc56}{%
+           family={Denburg},
+           familyi={D\bibinitperiod},
+           given={Michelle\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff2f4ec8cbe0dc3e0e59e3a48d20991c}{%
+           family={Forrest},
+           familyi={F\bibinitperiod},
+           given={Christopher\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99686fc4f13979267a157cb15dd46eae}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={L.\bibnamedelimi Charles},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=32e50d7b9f17ef0da6a8c84c6af5208c}{%
+           family={Armengol\bibnamedelimb De\bibnamedelimb La\bibnamedelima Hoz},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Miguel\bibnamedelima Ángel},
+           giveni={M\bibinitperiod\bibinitdelim Á\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{cd2fcc2b5e10f8fa810ab73d8eb98bb4}
+      \strng{fullhash}{a4f2a5aa8aeee6ff241d205a966e19c9}
+      \strng{bibnamehash}{658bc875db921fc528c6525460db44c4}
+      \strng{authorbibnamehash}{658bc875db921fc528c6525460db44c4}
+      \strng{authornamehash}{cd2fcc2b5e10f8fa810ab73d8eb98bb4}
+      \strng{authorfullhash}{a4f2a5aa8aeee6ff241d205a966e19c9}
+      \strng{editorbibnamehash}{32e50d7b9f17ef0da6a8c84c6af5208c}
+      \strng{editornamehash}{32e50d7b9f17ef0da6a8c84c6af5208c}
+      \strng{editorfullhash}{32e50d7b9f17ef0da6a8c84c6af5208c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Study-specific data quality testing is an essential part of minimizing analytic errors, particularly for studies making secondary use of clinical data. We applied a systematic and reproducible approach for study-specific data quality testing to the analysis plan for PRESERVE, a 15-site, EHR-based observational study of chronic kidney disease in children. This approach integrated widely adopted data quality concepts with healthcare-specific evaluation methods. We implemented two rounds of data quality assessment. The first produced high-level evaluation using aggregate results from a distributed query, focused on cohort identification and main analytic requirements. The second focused on extended testing of row-level data centralized for analysis. We systematized reporting and cataloguing of data quality issues, providing institutional teams with prioritized issues for resolution. We tracked improvements and documented anomalous data for consideration during analyses. The checks we developed identified 115 and 157 data quality issues in the two rounds, involving completeness, data model conformance, cross-variable concordance, consistency, and plausibility, extending traditional data quality approaches to address more complex stratification and temporal patterns. Resolution efforts focused on higher priority issues, given finite study resources. In many cases, institutional teams were able to correct data extraction errors or obtain additional data, avoiding exclusion of 2 institutions entirely and resolving 123 other gaps. Other results identified complexities in measures of kidney function, bearing on the study’s outcome definition. Where limitations such as these are intrinsic to clinical data, the study team must account for them in conducting analyses. This study rigorously evaluated fitness of data for intended use. The framework is reusable and built on a strong theoretical underpinning. Significant data quality issues that would have otherwise delayed analyses or made data unusable were addressed. This study highlights the need for teams combining subject-matter and informatics expertise to address data quality when working with real world data.}
+      \field{issn}{2767-3170}
+      \field{journaltitle}{PLOS Digital Health}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{Systematic data quality assessment of electronic health record data to evaluate study-specific fitness}
+      \field{title}{Systematic data quality assessment of electronic health record data to evaluate study-specific fitness: {Report} from the {PRESERVE} research study}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e0000527}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pdig.0000527
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/VNXJQ6AA/Razzaghi et al. - 2024 - Systematic data quality assessment of electronic health record data to evaluate study-specific fitne.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.plos.org/10.1371/journal.pdig.0000527
+      \endverb
+      \verb{url}
+      \verb https://dx.plos.org/10.1371/journal.pdig.0000527
+      \endverb
+    \endentry
+    \entry{rosselli_sispro_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c73bbc8c681fa580773d0303069a97a}{%
+           family={Rosselli},
+           familyi={R\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa5f8b8d0ed363fb8c58c6acc2a6331e}{%
+           family={Pantoja-Ruiz},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Camila},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{fullhash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{bibnamehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{authorbibnamehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{authornamehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{authorfullhash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Colombia es reconocida en la región por la universalidad tanto de su sistema de salud como de sus sistemas de información. Si bien el Sistema de Información Integral para la Protección Social (SISPRO) tiene como finalidad cumplir una función administrativa dentro del sistema de salud, se están reconociendo sus usos en investigación. SISPRO está compuesto por varias bases de datos diferentes: las estadísticas vitales, el registro individual de prestaciones en salud (RIPS) y la clasificación única de trámites en salud (CUPS), entre otras. Las estadísticas vitales registran los nacimientos y las defunciones, junto con la ubicación geográfica, la edad de la madre o la causa de la muerte, entre otra información. Los RIPS son la base de datos más utilizada en investigación en salud, ya que permiten establecer el número de contactos que las personas tienen con el sistema de salud (más de 2 mil millones en el último quinquenio) y conocer los principales diagnósticos registrados en cada uno de estos contactos. Con RIPS, ha sido posible establecer la prevalencia de esclerosis múltiple o estimar la carga de enfermedad de la epilepsia en Colombia. RIPS también tiene información útil sobre el costo de la atención médica. Finalmente, los CUPS permiten cuantificar los procedimientos de salud, por ejemplo, podemos estimar en 1879 el número de procedimientos de trombólisis de vasos intracraneales en Colombia entre 2017 y 2021. La calidad de la información es una gran limitación en toda base de datos administrativa, sin embargo, SISPRO representa una gran oportunidad para utilizar los registros oficiales para generar conocimiento, comprender la distribución geográfica de las enfermedades y contribuir al diseño de políticas públicas en nuestra población.}
+      \field{issn}{2422-4022}
+      \field{journaltitle}{Acta Neurológica Colombiana}
+      \field{number}{4}
+      \field{shorttitle}{{SISPRO}}
+      \field{title}{{SISPRO}: {La} base de datos administrativa del sistema de salud colombiano}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{38}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{187\bibrangedash 190}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.22379/24224022426
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/andres-crow/Zotero/storage/N2XQURBF/Rosselli and Pantoja-Ruiz - 2022 - SISPRO La base de datos administrativa del sistema de salud colombiano.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.actaneurologica.com/index.php/anc/article/view/1127
+      \endverb
+      \verb{url}
+      \verb https://www.actaneurologica.com/index.php/anc/article/view/1127
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global}
@@ -650,6 +1208,49 @@
       \verb https://www.mdpi.com/2076-3417/11/24/11920
       \endverb
     \endentry
+    \entry{bohorquez_desarrollo_2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62f2670fa2cb9bd23d1f8eec591f5210}{%
+           family={Bohórquez},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spa}%
+      }
+      \list{publisher}{1}{%
+        {Tecnológico de Antioquia, Institución Universitaria}%
+      }
+      \strng{namehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{fullhash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{bibnamehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{authorbibnamehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{authornamehash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \strng{authorfullhash}{62f2670fa2cb9bd23d1f8eec591f5210}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Este estudio se centra en el desarrollo de 'RIPS Inspector', una metodología diseñada para identificar errores en los Registros Individuales de Prestación de Servicios de Salud (RIPS) en Colombia. Enmarcado en un contexto donde la calidad de los datos es fundamental dentro de los sistemas de información del sector salud en Colombia, resaltando la importancia de contar con registros fiables y exactos con el fin de ser utilizados en estudios y análisis descriptivos. Es así que 'RIPS Inspector' aplica un enfoque estructurado y específico para la identificación de posibles errores en los datos de los RIPS. Diseñada para adaptarse a diferentes contextos y necesidades del sistema de salud, esta herramienta demuestra ser particularmente útil y flexible. Los hallazgos del estudio revelan la eficiencia de 'RIPS Inspector' en detectar errores, contribuyendo significativamente a la mejora de la calidad de los datos en el ámbito de la salud. El trabajo destaca la relevancia de 'RIPS Inspector' en el actual panorama del sector salud en Colombia, enfatizando su potencial para optimizar la gestión de datos de salud y fortalecer la toma de decisiones basada en información precisa. A pesar de enfrentar desafíos como la integración en sistemas existentes y la variabilidad en la calidad inicial de los datos, estos aspectos resaltan la necesidad de una continua evolución en este campo. En conclusión, se recomienda emplear 'RIPS Inspector' como una guía adaptable y flexible, subrayando la importancia de personalizar su aplicación según las necesidades específicas de cada contexto de implementación.}
+      \field{month}{5}
+      \field{title}{Desarrollo de una metodología para el análisis de la información del proceso de {RIPS} en el sector salud}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/andres-crow/Zotero/storage/R89DALH7/Bohórquez - 2024 - Desarrollo de una metodología para el análisis de la información del proceso de RIPS en el sector sa.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dspace.tdea.edu.co/handle/tdea/5830
+      \endverb
+      \verb{url}
+      \verb https://dspace.tdea.edu.co/handle/tdea/5830
+      \endverb
+    \endentry
     \entry{SRS_Morbilidad_2026}{report}{}
       \list{institution}{1}{%
         {Hospital Susana López de Valencia}%
@@ -666,6 +1267,145 @@
       \field{title}{Especificación de Requerimientos de Datos (SRS/DRS) para la Plataforma de Análisis de Morbilidad Institucional}
       \field{type}{Documento técnico de levantamiento de requerimientos}
       \field{year}{2026}
+    \endentry
+    \entry{essen_implications_2025}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=49f6065814f5f7f77451af9278163350}{%
+           family={Essen},
+           familyi={E\bibinitperiod},
+           given={Melissa\bibnamedelimb H.\bibnamedelimi J.\bibnamedelimi van},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25029e38d7bc965f9500aae474c6a1df}{%
+           family={Twickler},
+           familyi={T\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62558ccabc7553e8a0fa07e28384ddd7}{%
+           family={Weesie},
+           familyi={W\bibinitperiod},
+           given={Yvette\bibnamedelima M.},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a6085f21054a831e2e41aa8a84b3da6}{%
+           family={Arslan},
+           familyi={A\bibinitperiod},
+           given={Ilgin\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e71385693b92f0274b1dbde4f6307f40}{%
+           family={Groenhof},
+           familyi={G\bibinitperiod},
+           given={Feikje},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05464e4d677d91ad915924584a7102ad}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Lilian\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdaa8652c962b7ce912cada133b6c9d9}{%
+           family={Bos},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58ab5f39530680f3dbfb31aae05831a7}{%
+           family={Verheij},
+           familyi={V\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \list{publisher}{1}{%
+        {JMIR Publications Inc., Toronto, Canada}%
+      }
+      \strng{namehash}{6017f9c73b1ea4dd1a57bf9041dddb60}
+      \strng{fullhash}{141fef6488e14270aee87eced24fb838}
+      \strng{bibnamehash}{141fef6488e14270aee87eced24fb838}
+      \strng{authorbibnamehash}{141fef6488e14270aee87eced24fb838}
+      \strng{authornamehash}{6017f9c73b1ea4dd1a57bf9041dddb60}
+      \strng{authorfullhash}{141fef6488e14270aee87eced24fb838}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Further use of routinely recorded data in electronic health records (EHR) is increasingly more common, for example in epidemiological research. However, data need to be processed and prepared to allow for this further use. Within this process, different choices can be made, which could have significant consequences for research outcomes. Objective: The aim of this study was to investigate the influence of data processing steps involved in the secondary use of EHR data on research outcomes. Methods: This study used EHR data from eight Dutch general practices from 2019. These practices contributed data to two research databases: the Academic General Practitioner Development Network (AHON) registry and the Nivel Primary Care Database (Nivel-PCD). Data were extracted and processed using distinct data processing pipelines. This allowed for the evaluation of the impact of different processing methods by comparing the two datasets in a three-step approach: 1) patient demographics, 2) epidemiology of concordant patients, 3) health service utilization of patients with three diagnoses. We compared a number of indicators of similarity between the two databases, including number of contacts, regular consultations and visits, prescriptions, and episodes. Subsequently, for these three diagnoses (diabetes mellitus (DM), urinary tract infection (UTI), cough) we calculated the prevalence, number of prescriptions and number of regular consultations and visits per 1000 patient years. The outcomes were compared by performing two sample t-tests using 99\% confidence intervals. Results: There was a difference in the number of enrolled patients between the two datasets (AHON registry N= 47,517, Nivel-PCD N=44,247). However, the patient demographics were similar. We found differences between all indicator outcomes of the concordant patients in both databases, i.e., the number of contacts, prescriptions and episodes per patient, except for the number of regular consultations and visits (P=.46). Differences in the indicator outcomes varied between the three diagnosis groups, whereas the number of regular consultations and visits was similar between databases for all diagnoses (DM P={<}.55, UTI P=.73, cough P=.73) Conclusions: The results illustrate the importance of awareness of researchers and other users of routine health data of the different steps in processing these data and making them available for research. Data processors should share their knowledge about these choices and researchers and policymakers should invest in their knowledge of this type of metadata. This transparency is all the more important in light of a European Health Data Space and the ever-increasing secondary use of routinely recorded health data. Future research should focus on the role of transparency and joint decision making, to minimize effects of data processing steps and to gain insight into the individual influence of processing steps on research outcomes. This could stimulate a common approach among data processors and researchers resulting in increased data interoperability.}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shorttitle}{Implications of {Data} {Extraction} and {Processing} of {Electronic} {Health} {Records} for {Epidemiological} {Research}}
+      \field{title}{Implications of {Data} {Extraction} and {Processing} of {Electronic} {Health} {Records} for {Epidemiological} {Research}: {Observational} {Study}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{e64628}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/64628
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/home/andres-crow/Zotero/storage/F9VJYPNL/Essen et al. - 2025 - Implications of Data Extraction and Processing of Electronic Health Records for Epidemiological Rese.pdf:application/pdf;Snapshot:/home/andres-crow/Zotero/storage/6NX8P3JU/e64628.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jmir.org/2025/1/e64628
+      \endverb
+      \verb{url}
+      \verb https://www.jmir.org/2025/1/e64628
+      \endverb
+    \endentry
+    \entry{huguett_aragon_calidad_2014}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a38a8a7f77282b1a0a8f16d3c6569d61}{%
+           family={Huguett\bibnamedelima Aragón},
+           familyi={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \list{publisher}{1}{%
+        {Bogotá, Colombia}%
+      }
+      \strng{namehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{fullhash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{bibnamehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{authorbibnamehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{authornamehash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \strng{authorfullhash}{a38a8a7f77282b1a0a8f16d3c6569d61}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Calidad de los {Registros} {Individuales} de {Prestación} de {Servicios} como fuente de información para el {Sistema} de {Vigilancia} en {Salud} {Pública} en {Colombia}.}
+      \field{type}{Tesis de maestría}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content
+      \endverb
+      \verb{url}
+      \verb https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content
+      \endverb
     \endentry
     \entry{lighterness_data_2024}{article}{}
       \name{author}{4}{}{%
@@ -732,6 +1472,129 @@
       \endverb
       \verb{url}
       \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11377907/
+      \endverb
+    \endentry
+    \entry{medrano_caracterizacion_2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0c96e61cf59f3ec663fe7b23137c146}{%
+           family={Medrano},
+           familyi={M\bibinitperiod},
+           given={Sandra\bibnamedelima Milena},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f3d55a11c8476edbe516dc65039c91b}{%
+           family={C},
+           familyi={C\bibinitperiod},
+           given={Myriam\bibnamedelimb Teresa\bibnamedelima Mayorga},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{fullhash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{bibnamehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{authorbibnamehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{authornamehash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \strng{authorfullhash}{50eca9ff76dbff5509419cb2634b9e8b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{\&lt;em\&gt;\&lt;strong\&gt;Objective\&lt;/strong\&gt;\&lt;em\&gt; To characterize the visual and ocular morbidity of the population treated in Colombia based on the reports from the individual records of the provision of health services (RIPS), Chapter VII of the International Classification of Diseases, 10th Version (ICD-10), years 2009-2010. \&lt;em\&gt;\&lt;strong\&gt;Materials and methods\&lt;/strong\&gt;\&lt;em\&gt; A descriptive retrospective observational study was conducted of the visual and ocular morbidity of the population treated in Colombia according to the RIPS reports the 58 diagnostic codes were reclassified into 18 categories, according to the Reisvo classification the demographic variables of age, gender and health protection scheme were taken into consideration, as well as the clinical variable of diagnosis code univariate and bivariate analysis were performed. \&lt;em\&gt;\&lt;strong\&gt;Results\&lt;/strong\&gt;\&lt;em\&gt; 775,989 RIPS from 2009 and 1,605,714 from 2010 were analyzed, corresponding to Chapter VII of ICD-10 most of them were female, 54.3\% from 2009 and 58.4\% from 2010. The predominant health scheme was the contributive scheme, with 73\% for both years. The most frequent diagnostic groups in 2009 were disorders of the conjunctiva (55.9 \%), accommodation and refractive disorders (23.1 \%), eyelid disorders (9.9\%), blindness and decreased visual acuity (2.2 \%) for 2010, they were: accommodation and refractive disorders (44 \%), disorders of the conjunctiva (23.4 \%), eyelid disorders (4.4 \%), blindness and decreased visual acuity (3.8 \%) and glaucoma (3.7 \%). \&lt;em\&gt;\&lt;strong\&gt;Conclusions\&lt;/strong\&gt;\&lt;em\&gt; The most prevalent diagnoses in the two years evaluated were: accommodation and refractive disorders, and disorders of the conjunctiva.}
+      \field{issn}{2389-8801}
+      \field{journaltitle}{Ciencia y Tecnología para la Salud Visual y Ocular}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Caracterización de la morbilidad visual y ocular de la población atendida en {Colombia}, según los reportes de los {RIPS}, 2009 y 2010}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 64}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.19052/sv.2870
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/andres-crow/Zotero/storage/3SNP2Z42/Medrano and C - 2015 - Caracterización de la morbilidad visual y ocular de la población atendida en Colombia, según los rep.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://saludvisual.lasalle.edu.co/article/view/1536
+      \endverb
+      \verb{url}
+      \verb https://saludvisual.lasalle.edu.co/article/view/1536
+      \endverb
+      \keyw{Colombia,morbilidad ocular,morbilidad visual,ocular morbidity,records,registros,visual morbidity}
+    \endentry
+    \entry{ozonze_automating_2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5ec8c26427ccaf76d11cc0d8be5b60e9}{%
+           family={Ozonze},
+           familyi={O\bibinitperiod},
+           given={Obinwa},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2de2b1910a52dd750f03dbf592643b3}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Philip\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc83e3ce3c2e7960caf6ac99dddf6f42}{%
+           family={Hopgood},
+           familyi={H\bibinitperiod},
+           given={Adrian\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8527768377d9055cbb3960c995a05bfa}
+      \strng{fullhash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \strng{bibnamehash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \strng{authorbibnamehash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \strng{authornamehash}{8527768377d9055cbb3960c995a05bfa}
+      \strng{authorfullhash}{7dc6c36e21eec9788ba98629649c0ce3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Information systems such as Electronic Health Record (EHR) systems are susceptible to data quality (DQ) issues. Given the growing importance of EHR data, there is an increasing demand for strategies and tools to help ensure that available data are fit for use. However, developing reliable data quality assessment (DQA) tools necessary for guiding and evaluating improvement efforts has remained a fundamental challenge. This review examines the state of research on operationalising EHR DQA, mainly automated tooling, and highlights necessary considerations for future implementations. We reviewed 1841 articles from PubMed, Web of Science, and Scopus published between 2011 and 2021. 23 DQA programs deployed in real-world settings to assess EHR data quality ( n  = 14), and a few experimental prototypes ( n  = 9), were identified. Many of these programs investigate completeness ( n  = 15) and value conformance ( n  = 12) quality dimensions and are backed by knowledge items gathered from domain experts ( n  = 9), literature reviews and existing DQ measurements ( n  = 3). A few DQA programs also explore the feasibility of using data-driven techniques to assess EHR data quality automatically. Overall, the automation of EHR DQA is gaining traction, but current efforts are fragmented and not backed by relevant theory. Existing programs also vary in scope, type of data supported, and how measurements are sourced. There is a need to standardise programs for assessing EHR data quality, as current evidence suggests their quality may be unknown.}
+      \field{issn}{1573-689X}
+      \field{journaltitle}{Journal of Medical Systems}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Automating {Electronic} {Health} {Record} {Data} {Quality} {Assessment}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{47}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10916-022-01892-2
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/HNJTJM27/Ozonze et al. - 2023 - Automating Electronic Health Record Data Quality Assessment.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s10916-022-01892-2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10916-022-01892-2
       \endverb
     \endentry
     \entry{petri_clinical_2025}{article}{}
@@ -831,8 +1694,260 @@
       \field{title}{Procedimiento de Morbilidad Institucional}
       \field{year}{s.f.}
     \endentry
+    \entry{razzaghi_systematic_2024}{article}{}
+      \name{author}{23}{}{%
+        {{un=0,uniquepart=base,hash=8a122bca9ac87eaec31380fa925d9753}{%
+           family={Razzaghi},
+           familyi={R\bibinitperiod},
+           given={Hanieh},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbc3e893c461e96055fb693de9df1f05}{%
+           family={Goodwin\bibnamedelima Davies},
+           familyi={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21dead6e6b9540465f41b7fcbe0743a0}{%
+           family={Boss},
+           familyi={B\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df483a5ce8db786a59e18ed3254ae1d6}{%
+           family={Bunnell},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi Timothy},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7608dbf6c54dadf166f77046db3c64a6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8f46b1fa63d651a9b6e8d1cc1f6ee50}{%
+           family={Chrischilles},
+           familyi={C\bibinitperiod},
+           given={Elizabeth\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b749b3ae7278679b46c41e0db687bb19}{%
+           family={Dickinson},
+           familyi={D\bibinitperiod},
+           given={Kimberley},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6c44be9dfb753dec3a5222329c8323c}{%
+           family={Hanauer},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5dd822e42e264e595fd0177b7c13762c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yungui},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d01816be2f193fe775da426c4aeb79b}{%
+           family={Ilunga},
+           familyi={I\bibinitperiod},
+           given={K.\bibnamedelimi T.\bibnamedelimi Sandra},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac4f939f21f059633fe82091e2d31b90}{%
+           family={Katsoufis},
+           familyi={K\bibinitperiod},
+           given={Chryso},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3315dedad36452676a3985e988143c27}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Harold},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fee9a9eb24b62bc653784c9268bf35c8}{%
+           family={Lemas},
+           familyi={L\bibinitperiod},
+           given={Dominick\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca13756c15fc377832c90bda3fb136f7}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9037f06c8113703a8f8753564aafafa}{%
+           family={Mendonca},
+           familyi={M\bibinitperiod},
+           given={Eneida\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69842457989ccea6cba189ff25ba639e}{%
+           family={Morse},
+           familyi={M\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d5f1f2e0099f2b5897523dcc3c65962}{%
+           family={Ranade},
+           familyi={R\bibinitperiod},
+           given={Daksha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8593a9213366f1055238aae51d5b9baf}{%
+           family={Rosenman},
+           familyi={R\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61c3e9fba039332332abcb073641d97a}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Bradley},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78942c7cd6b65229677ffe6197d6b36d}{%
+           family={Walters},
+           familyi={W\bibinitperiod},
+           given={Kellie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbfef18ac429adf70c3a7edf4c4bbc56}{%
+           family={Denburg},
+           familyi={D\bibinitperiod},
+           given={Michelle\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff2f4ec8cbe0dc3e0e59e3a48d20991c}{%
+           family={Forrest},
+           familyi={F\bibinitperiod},
+           given={Christopher\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99686fc4f13979267a157cb15dd46eae}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={L.\bibnamedelimi Charles},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=32e50d7b9f17ef0da6a8c84c6af5208c}{%
+           family={Armengol\bibnamedelimb De\bibnamedelimb La\bibnamedelima Hoz},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Miguel\bibnamedelima Ángel},
+           giveni={M\bibinitperiod\bibinitdelim Á\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{cd2fcc2b5e10f8fa810ab73d8eb98bb4}
+      \strng{fullhash}{a4f2a5aa8aeee6ff241d205a966e19c9}
+      \strng{bibnamehash}{658bc875db921fc528c6525460db44c4}
+      \strng{authorbibnamehash}{658bc875db921fc528c6525460db44c4}
+      \strng{authornamehash}{cd2fcc2b5e10f8fa810ab73d8eb98bb4}
+      \strng{authorfullhash}{a4f2a5aa8aeee6ff241d205a966e19c9}
+      \strng{editorbibnamehash}{32e50d7b9f17ef0da6a8c84c6af5208c}
+      \strng{editornamehash}{32e50d7b9f17ef0da6a8c84c6af5208c}
+      \strng{editorfullhash}{32e50d7b9f17ef0da6a8c84c6af5208c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Study-specific data quality testing is an essential part of minimizing analytic errors, particularly for studies making secondary use of clinical data. We applied a systematic and reproducible approach for study-specific data quality testing to the analysis plan for PRESERVE, a 15-site, EHR-based observational study of chronic kidney disease in children. This approach integrated widely adopted data quality concepts with healthcare-specific evaluation methods. We implemented two rounds of data quality assessment. The first produced high-level evaluation using aggregate results from a distributed query, focused on cohort identification and main analytic requirements. The second focused on extended testing of row-level data centralized for analysis. We systematized reporting and cataloguing of data quality issues, providing institutional teams with prioritized issues for resolution. We tracked improvements and documented anomalous data for consideration during analyses. The checks we developed identified 115 and 157 data quality issues in the two rounds, involving completeness, data model conformance, cross-variable concordance, consistency, and plausibility, extending traditional data quality approaches to address more complex stratification and temporal patterns. Resolution efforts focused on higher priority issues, given finite study resources. In many cases, institutional teams were able to correct data extraction errors or obtain additional data, avoiding exclusion of 2 institutions entirely and resolving 123 other gaps. Other results identified complexities in measures of kidney function, bearing on the study’s outcome definition. Where limitations such as these are intrinsic to clinical data, the study team must account for them in conducting analyses. This study rigorously evaluated fitness of data for intended use. The framework is reusable and built on a strong theoretical underpinning. Significant data quality issues that would have otherwise delayed analyses or made data unusable were addressed. This study highlights the need for teams combining subject-matter and informatics expertise to address data quality when working with real world data.}
+      \field{issn}{2767-3170}
+      \field{journaltitle}{PLOS Digital Health}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{Systematic data quality assessment of electronic health record data to evaluate study-specific fitness}
+      \field{title}{Systematic data quality assessment of electronic health record data to evaluate study-specific fitness: {Report} from the {PRESERVE} research study}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e0000527}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pdig.0000527
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/andres-crow/Zotero/storage/VNXJQ6AA/Razzaghi et al. - 2024 - Systematic data quality assessment of electronic health record data to evaluate study-specific fitne.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.plos.org/10.1371/journal.pdig.0000527
+      \endverb
+      \verb{url}
+      \verb https://dx.plos.org/10.1371/journal.pdig.0000527
+      \endverb
+    \endentry
+    \entry{rosselli_sispro_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c73bbc8c681fa580773d0303069a97a}{%
+           family={Rosselli},
+           familyi={R\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa5f8b8d0ed363fb8c58c6acc2a6331e}{%
+           family={Pantoja-Ruiz},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Camila},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \strng{namehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{fullhash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{bibnamehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{authorbibnamehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{authornamehash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \strng{authorfullhash}{3c1279c83b9212c0ffbceb77a7e73834}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Colombia es reconocida en la región por la universalidad tanto de su sistema de salud como de sus sistemas de información. Si bien el Sistema de Información Integral para la Protección Social (SISPRO) tiene como finalidad cumplir una función administrativa dentro del sistema de salud, se están reconociendo sus usos en investigación. SISPRO está compuesto por varias bases de datos diferentes: las estadísticas vitales, el registro individual de prestaciones en salud (RIPS) y la clasificación única de trámites en salud (CUPS), entre otras. Las estadísticas vitales registran los nacimientos y las defunciones, junto con la ubicación geográfica, la edad de la madre o la causa de la muerte, entre otra información. Los RIPS son la base de datos más utilizada en investigación en salud, ya que permiten establecer el número de contactos que las personas tienen con el sistema de salud (más de 2 mil millones en el último quinquenio) y conocer los principales diagnósticos registrados en cada uno de estos contactos. Con RIPS, ha sido posible establecer la prevalencia de esclerosis múltiple o estimar la carga de enfermedad de la epilepsia en Colombia. RIPS también tiene información útil sobre el costo de la atención médica. Finalmente, los CUPS permiten cuantificar los procedimientos de salud, por ejemplo, podemos estimar en 1879 el número de procedimientos de trombólisis de vasos intracraneales en Colombia entre 2017 y 2021. La calidad de la información es una gran limitación en toda base de datos administrativa, sin embargo, SISPRO representa una gran oportunidad para utilizar los registros oficiales para generar conocimiento, comprender la distribución geográfica de las enfermedades y contribuir al diseño de políticas públicas en nuestra población.}
+      \field{issn}{2422-4022}
+      \field{journaltitle}{Acta Neurológica Colombiana}
+      \field{number}{4}
+      \field{shorttitle}{{SISPRO}}
+      \field{title}{{SISPRO}: {La} base de datos administrativa del sistema de salud colombiano}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{38}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{187\bibrangedash 190}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.22379/24224022426
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/andres-crow/Zotero/storage/N2XQURBF/Rosselli and Pantoja-Ruiz - 2022 - SISPRO La base de datos administrativa del sistema de salud colombiano.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.actaneurologica.com/index.php/anc/article/view/1127
+      \endverb
+      \verb{url}
+      \verb https://www.actaneurologica.com/index.php/anc/article/view/1127
+      \endverb
+    \endentry
   \enddatalist
-  \missing{autor2022}
 \endrefsection
 \endinput
 
