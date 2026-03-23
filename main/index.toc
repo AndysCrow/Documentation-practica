@@ -9,28 +9,26 @@
 \contentsline {subsubsection}{\numberline {1.5.2}Objetivos Específicos}{6}{subsubsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.6}Alcance y Limitaciones}{6}{subsection.1.6}%
 \contentsline {subsubsection}{\numberline {1.6.1}Alcance}{6}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Limitaciones del alcance}{7}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {1.6.2}Limitaciones del Alcance}{7}{subsubsection.1.6.2}%
 \contentsline {section}{\numberline {2}Marco Teórico}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Antecedentes de la Investigación}{8}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Estado del Arte}{8}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Fundamentación Teórica}{8}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Análisis del Problema}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Análisis del Problema}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Árbol de Problemas}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Árbol de Objetivos}{11}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Metodología}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Tipo de investigación}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Enfoque de la investigación}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Métodos y técnicas de recolección de datos}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Procedimiento metodológico}{13}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Técnicas de análisis de datos}{13}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Herramientas y recursos}{14}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Consideraciones éticas}{14}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Validez y confiabilidad}{15}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Plan de Trabajo y Cronograma}{16}{section.5}%
-\contentsline {section}{\numberline {6}Resultados Esperados e Impacto}{17}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Productos o Entregables Esperados}{17}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Beneficios para la Institución, Comunidad o Industria}{17}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Cronograma de Implementación}{18}{section.7}%
-\contentsline {section}{\numberline {8}Referencias Bibliográficas}{19}{section.8}%
-\contentsline {section}{Anexos}{20}{section*.4}%
+\contentsline {subsection}{\numberline {2.2}Estado del Arte}{9}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Análisis del Problema}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Análisis del Problema}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Árbol de Problemas}{12}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Árbol de Objetivos}{13}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Metodología}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tipo de Investigación}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Enfoque de la Investigación}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Métodos y Técnicas de Recolección de Datos}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Procedimiento Metodológico}{15}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Técnicas de Análisis de Datos}{15}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Herramientas y Recursos}{16}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Consideraciones Éticas}{16}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Validez y Confiabilidad}{17}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Plan de Trabajo y Cronograma}{18}{section.5}%
+\contentsline {section}{\numberline {6}Resultados Esperados e Impacto}{19}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Productos o Entregables Esperados}{19}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Beneficios para la Institución, Comunidad o Industria}{19}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Cronograma de Implementación}{20}{section.7}%
+\contentsline {section}{\numberline {8}Referencias Bibliográficas}{21}{section.8}%
