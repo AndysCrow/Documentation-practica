@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.7)  22 MAR 2026 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.7)  22 MAR 2026 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -717,7 +717,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 \newpage
+l.151 \newpage
                [1]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -730,7 +730,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 
+l.172 
        [2]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -743,7 +743,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 
+l.182 
        [3]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -801,11 +801,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-<Arbol_Problemas.png, id=265, 770.88pt x 578.16pt>
-File: Arbol_Problemas.png Graphic file (type png)
-<use Arbol_Problemas.png>
-Package pdftex.def Info: Arbol_Problemas.png  used on input line 289.
-(pdftex.def)             Requested size: 422.77698pt x 317.0803pt.
+<ARBOL-PROBLEMA.png, id=265, 845.40843pt x 478.03593pt>
+File: ARBOL-PROBLEMA.png Graphic file (type png)
+<use ARBOL-PROBLEMA.png>
+Package pdftex.def Info: ARBOL-PROBLEMA.png  used on input line 291.
+(pdftex.def)             Requested size: 422.77698pt x 239.05385pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -822,11 +822,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./Arbol_Problemas.png (PNG copy)>]
-File: Arbol_Problemas.png Graphic file (type png)
-<use Arbol_Problemas.png>
-Package pdftex.def Info: Arbol_Problemas.png  used on input line 300.
-(pdftex.def)             Requested size: 422.77698pt x 317.0803pt.
+[12 <./ARBOL-PROBLEMA.png (PNG copy)>]
+<ARBOL-DE-OBJETIVOS.png, id=275, 1008.01593pt x 556.32843pt>
+File: ARBOL-DE-OBJETIVOS.png Graphic file (type png)
+<use ARBOL-DE-OBJETIVOS.png>
+Package pdftex.def Info: ARBOL-DE-OBJETIVOS.png  used on input line 302.
+(pdftex.def)             Requested size: 422.77698pt x 233.33377pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -835,7 +836,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[13 <./ARBOL-DE-OBJETIVOS.png (PNG copy)>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -923,18 +924,18 @@ Package logreq Info: Writing requests to 'index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20606 strings out of 474222
- 365310 string characters out of 5748734
+ 20613 strings out of 474222
+ 365505 string characters out of 5748734
  1933975 words of memory out of 5000000
- 42561 multiletter control sequences out of 15000+600000
+ 42568 multiletter control sequences out of 15000+600000
  592901 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,81p,3266b,2811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on index.pdf (25 pages, 445921 bytes).
+Output written on index.pdf (25 pages, 287411 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
+ 379 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams
  82 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 

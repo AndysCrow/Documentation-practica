@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber index"] 1774234345.85837 "index.bcf" "index.bbl" "index" 1774234348.7971 0
-  "index.bcf" 1774234348.73706 134222 6803043690623a00615966c5ca5bf371 "pdflatex"
+["biber index"] 1774234345.85837 "index.bcf" "index.bbl" "index" 1774240157.01494 0
+  "index.bcf" 1774240156.9101 134222 6803043690623a00615966c5ca5bf371 "pdflatex"
   "referencias.bib" 1774233221.51709 37204 ee9e4f8c1ed6bd2cb032ea7944a52229 ""
   (generated)
   "index.bbl"
   "index.blg"
   (rewritten before read)
-["pdflatex"] 1774234347.69296 "/home/andres-crow/LaTeX/Proyect/main/index.tex" "index.pdf" "index" 1774234348.7974 0
+["pdflatex"] 1774240155.06547 "/home/andres-crow/LaTeX/Proyect/main/index.tex" "index.pdf" "index" 1774240157.01547 0
   "/etc/texmf/web2c/texmf.cnf" 1763613912.74862 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/andres-crow/LaTeX/Proyect/main/index.tex" 1774234344.67907 32757 aaaebf02fbd129b0f6ee11bf6bdaf9c8 ""
+  "/home/andres-crow/LaTeX/Proyect/main/index.tex" 1774240154.73576 32812 ff6e3e295d1b5304f1f0d664a0a5a408 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -115,13 +115,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772914263.90012 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772914301 8213475 ffe02570c1d88bbabbbd14e2054b3ad0 ""
-  "Arbol_Problemas.png" 1774220178.81451 355038 bd80dd71d846df0316df0685b07919ca ""
-  "index.aux" 1774234348.73306 10655 850889eb0ab20ed4216b0ff72e10c06a "pdflatex"
+  "ARBOL-DE-OBJETIVOS.png" 1774239967.85589 82289 03de8fe7edc6a31cbf03e4a0b04d267e ""
+  "ARBOL-PROBLEMA.png" 1774240147.56014 112679 d9b710f0125cba68b773f05d8a159102 ""
+  "index.aux" 1774240156.9031 10655 850889eb0ab20ed4216b0ff72e10c06a "pdflatex"
   "index.bbl" 1774234346.55481 121420 66f6f705ac5a6745a39dfd470f01c542 "biber index"
-  "index.out" 1774234348.73606 5989 d701e87de6c42414b00037c6e14adefa "pdflatex"
-  "index.run.xml" 1774234348.73864 2367 8c4e81ea659c6dc6b9e55cc6687cd17d "pdflatex"
-  "index.tex" 1774234344.67907 32757 aaaebf02fbd129b0f6ee11bf6bdaf9c8 ""
-  "index.toc" 1774234348.73864 2987 e40393a55b24896049504c0035d92e18 "pdflatex"
+  "index.out" 1774240156.9081 5989 d701e87de6c42414b00037c6e14adefa "pdflatex"
+  "index.run.xml" 1774240156.91169 2367 8c4e81ea659c6dc6b9e55cc6687cd17d "pdflatex"
+  "index.tex" 1774240154.73576 32812 ff6e3e295d1b5304f1f0d664a0a5a408 ""
+  "index.toc" 1774240156.91169 2987 e40393a55b24896049504c0035d92e18 "pdflatex"
   (generated)
   "index.aux"
   "index.bcf"
