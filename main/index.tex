@@ -30,6 +30,16 @@
 \usepackage[T1]{fontenc}          % Fuentes con caracteres latinos
 \usepackage[spanish]{babel}       % Idioma español (seccionado, fechas, etc.)
 
+% ---- Agregar paquetes para la tabla ---
+\usepackage[table]{xcolor}   % Para \cellcolor
+\usepackage{array}           % Para >{\centering} en columnas
+\usepackage{booktabs}  
+% Colores de las tres fases
+\definecolor{fase1}{RGB}{24,95,165}    % Azul – Fase 1
+\definecolor{fase2}{RGB}{15,110,86}    % Verde – Fase 2
+\definecolor{fase3}{RGB}{153,60,29}    % Coral – Fase 3
+\definecolor{colheader}{RGB}{230,230,230}  % Gris encabezado 
+
 % --- Fuente: Times New Roman (requerida por APA) ---
 \usepackage{mathptmx}             % Equivalente a Times New Roman en LaTeX
 
@@ -139,12 +149,10 @@
 %  RESUMEN EJECUTIVO / ABSTRACT
 % ------------------------------------------------------------
 \begin{abstract}
-Escribe aquí tu resumen ejecutivo. Debe tener entre 150 y 250 palabras
-y cubrir: el problema que aborda el proyecto, el objetivo general,
-la metodología empleada y los resultados que se esperan obtener.
+El presente proyecto aborda la problemática de la calidad de los datos de morbilidad en el área de epidemiología del Hospital Susana López de Valencia, donde el proceso de limpieza de datos se realiza de manera manual, sin criterios estandarizados ni mecanismos formales de trazabilidad o validación. Esta situación genera inconsistencias en los resultados y limita la confiabilidad de la información utilizada para la toma de decisiones clínicas y administrativas. El objetivo general del proyecto es implementar un proceso estructurado de limpieza de datos que garantice la trazabilidad, estandarización y confiabilidad de la información de morbilidad codificada bajo la clasificación CIE-10. Metodológicamente, el proyecto adopta un enfoque cuantitativo de investigación aplicada, basado en el análisis exploratorio de datos reales proporcionados por la institución, la definición de criterios técnicos de limpieza, su implementación en Python mediante Jupyter Notebook, y la validación de los resultados mediante métricas de calidad. Como resultados se esperan obtener un proceso de limpieza funcional y reproducible, un registro de trazabilidad de las decisiones aplicadas, un documento de criterios técnicos estandarizados y una base de datos de morbilidad depurada correspondiente al periodo enero–marzo de 2025, lista para su uso en análisis epidemiológico.
 
 \begin{center}
-  \textbf{Palabras clave:} \textit{Aquí van las palabras clave, separadas por comas}
+  \textbf{Palabras clave:} \textit{limpieza de datos, morbilidad, CIE-10, trazabilidad, calidad de datos, registros clínicos, epidemiología}
 \end{center}
 \end{abstract}
 
@@ -289,7 +297,7 @@ Por lo tanto, se hace necesario estructurar un proceso de limpieza de datos que 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9\textwidth]{ARBOL-PROBLEMA.png}
-  \caption{\textit{Nota.} Árbol de problemas del proceso de limpieza de datos de morbilidad en el área de epidemiología del Hospital Susana López de Valencia.}
+  \caption{Árbol de problemas}
   \label{fig:arbol_problemas}
 \end{figure}
 
@@ -300,7 +308,7 @@ Por lo tanto, se hace necesario estructurar un proceso de limpieza de datos que 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9\textwidth]{ARBOL-DE-OBJETIVOS.png}
-  \caption{\textit{Nota.} Árbol de objetivos del proceso de limpieza de datos de morbilidad en el área de epidemiología del Hospital Susana López de Valencia.}
+  \caption{Árbol de objetivos}
   \label{fig:arbol_objetivos}
 \end{figure}
 
@@ -406,6 +414,74 @@ Adicionalmente, la comparación con el proceso manual actual permitirá evaluar 
 El proyecto se desarrollará en un período de catorce semanas, comprendido entre el 16 de febrero y el 29 de mayo de 2026. Las actividades se estructuran en tres fases que corresponden a los objetivos específicos del proyecto: diseño del proceso de trazabilidad, definición de criterios técnicos estandarizados e implementación de los mecanismos de validación.
 
 La siguiente tabla describe las actividades previstas, sus responsables y el período de ejecución estimado.
+
+\begin{table}[h!]
+\centering
+\label{tab:cronograma}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.6}
+\scriptsize
+\begin{tabular}{|p{5.2cm}|*{14}{>{\centering\arraybackslash}m{0.62cm}|}}
+\hline
+\rowcolor{colheader}
+\textbf{Actividad} &
+\textbf{S1} & \textbf{S2} & \textbf{S3} & \textbf{S4} & \textbf{S5} &
+\textbf{S6} & \textbf{S7} & \textbf{S8} & \textbf{S9} & \textbf{S10} &
+\textbf{S11} & \textbf{S12} & \textbf{S13} & \textbf{S14} \\
+\hline
+
+% Act 1 – Semanas 1-2
+Recolección y revisión de datos institucionales &
+\cellcolor{fase1} & \cellcolor{fase1} & & & & & & & & & & & & \\
+\hline
+
+% Act 2 – Semanas 2-3
+Perfilamiento exploratorio de los datos &
+& \cellcolor{fase1} & \cellcolor{fase1} & & & & & & & & & & & \\
+\hline
+
+% Act 3 – Semanas 3-5
+Diseño del proceso de trazabilidad y documentación &
+& & \cellcolor{fase1} & \cellcolor{fase1} & \cellcolor{fase1} & & & & & & & & & \\
+\hline
+
+% Act 4 – Semanas 5-7
+Definición de criterios técnicos estandarizados de limpieza &
+& & & & \cellcolor{fase2} & \cellcolor{fase2} & \cellcolor{fase2} & & & & & & & \\
+\hline
+
+% Act 5 – Semanas 7-10
+Implementación del proceso de limpieza en Python/Jupyter &
+& & & & & & \cellcolor{fase2} & \cellcolor{fase2} & \cellcolor{fase2} & \cellcolor{fase2} & & & & \\
+\hline
+
+% Act 6 – Semanas 10-12
+Implementación de mecanismos de validación y control de calidad &
+& & & & & & & & & \cellcolor{fase3} & \cellcolor{fase3} & \cellcolor{fase3} & & \\
+\hline
+
+% Act 7 – Semanas 12-13
+Comparación con el proceso manual actual &
+& & & & & & & & & & & \cellcolor{fase3} & \cellcolor{fase3} & \\
+\hline
+
+% Act 8 – Semanas 13-14
+Documentación de resultados y elaboración del informe final &
+& & & & & & & & & & & & \cellcolor{fase3} & \cellcolor{fase3} \\
+\hline
+
+\end{tabular}
+\caption{Cronograma de actividades del proyecto.}
+\end{table}
+
+
+% Leyenda de fases
+\vspace{4pt}
+\noindent\footnotesize
+\textcolor{fase1}{\rule{1em}{0.8em}}~Fase 1: Trazabilidad\quad
+\textcolor{fase2}{\rule{1em}{0.8em}}~Fase 2: Criterios técnicos\quad
+\textcolor{fase3}{\rule{1em}{0.8em}}~Fase 3: Validación
+
 
 \newpage
 
