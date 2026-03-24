@@ -1,0 +1,22 @@
+# Archivos generados por LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.out
+*.toc
+
+# PDF generado
+*.pdf
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Carpetas de sistema
+.DS_Store
+Thumbs.db
