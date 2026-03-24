@@ -1,4 +1,4 @@
-# 📚 Referencias a utilizar
+# Referencias a utilizar
 
 Este documento tiene como propósito **organizar y comprender las referencias bibliográficas** que serán utilizadas en el anteproyecto.
 
@@ -10,7 +10,7 @@ No corresponde a una redacción académica final, sino a una **guía interna de 
 
 Cada referencia ya se encuentra registrada en formato **BibLaTeX**, por lo que este documento no busca citarlas formalmente, sino **servir como apoyo conceptual previo**.
 
-
+---
 
 ## 1. Data Quality–Driven Improvement in Health Care: Systematic Literature Review
 
@@ -136,7 +136,9 @@ Se identifica que:
 * Argumentar la necesidad de formalizar el proceso actual
 * Respaldar la fase de validación del proyecto
 
-# Para el marco teorico
+---
+
+# Para el marco teórico
 
 ## 8. Systematic data quality assessment of electronic health record data to evaluate study-specific fitness: Report from the PRESERVE research study
 
@@ -196,109 +198,102 @@ Se identifica que:
 * Respaldar la necesidad de trazabilidad en el manejo de datos
 * Apoyar la estandarización de los procesos ETL dentro del proyecto
 
-# Para el estado del arte
+---
 
+# Para el estado del arte
 
 ## Evaluación de la calidad de los RIPS en Colombia
 
-📄 Título:
+Título:
 Evaluación de la calidad de los Registros Individuales de Prestación de Servicios de Salud (RIPS) en Colombia
 
-🔗 [https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content](https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content)
+[https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content](https://repositorio.uniandes.edu.co/server/api/core/bitstreams/39c0a5c3-0ad0-43f3-b2ec-ef5679efd16d/content)
 
-👉 Qué demuestra:
+* Los RIPS presentan problemas de calidad (inconsistencias, datos faltantes)
+* Los datos son complejos y difíciles de procesar
+* Están subutilizados en vigilancia en salud pública
+* La mala calidad afecta la generación de información confiable
 
-* los RIPS presentan problemas de calidad (inconsistencias, datos faltantes)
-* los datos son complejos y difíciles de procesar
-* están subutilizados en vigilancia en salud pública
-* la mala calidad afecta la generación de información confiable
+Qué te aporta:
 
-👉 Qué te aporta:
-✔ evidencia real en Colombia del problema de calidad de datos
-✔ justificación directa de tu problema de investigación
-✔ soporte para uso de dimensiones como consistencia y completitud
+* Evidencia real en Colombia del problema de calidad de datos
+* Justificación directa de tu problema de investigación
+* Soporte para uso de dimensiones como consistencia y completitud
 
-📌 Idea clave:
-👉 **los RIPS tienen potencial para la vigilancia en salud, pero su baja calidad limita su uso efectivo**
+Idea clave:
+**Los RIPS tienen potencial para la vigilancia en salud, pero su baja calidad limita su uso efectivo**
 
 ---
 
-##  RIPS Inspector (detección de errores en RIPS)
+## RIPS Inspector (detección de errores en RIPS)
 
-📄 Título:
+Título:
 RIPS Inspector: metodología para identificación de errores en RIPS
 
-🔗 [https://dspace.tdea.edu.co/entities/publication/534e0f4a-bda2-4a83-9f65-faec7165d529](https://dspace.tdea.edu.co/entities/publication/534e0f4a-bda2-4a83-9f65-faec7165d529)
+[https://dspace.tdea.edu.co/entities/publication/534e0f4a-bda2-4a83-9f65-faec7165d529](https://dspace.tdea.edu.co/entities/publication/534e0f4a-bda2-4a83-9f65-faec7165d529)
 
-👉 Qué demuestra:
+Qué demuestra:
 
-* es posible detectar errores en los RIPS mediante reglas estructuradas
-* la calidad de datos puede mejorarse con metodologías específicas
-* existen dificultades en la implementación (integración, variabilidad de datos)
+* Es posible detectar errores en los RIPS mediante reglas estructuradas
+* La calidad de datos puede mejorarse con metodologías específicas
+* Existen dificultades en la implementación (integración, variabilidad de datos)
 
-👉 Qué te aporta:
-✔ muestra una solución práctica (no solo el problema)
-✔ respalda el uso de reglas y validaciones
-✔ apoya enfoques estructurados de calidad de datos
+Qué te aporta:
 
-📌 Idea clave:
-👉 **la calidad de los RIPS puede mejorarse mediante metodologías estructuradas de detección de errores**
+* Muestra una solución práctica (no solo el problema)
+* Respalda el uso de reglas y validaciones
+* Apoya enfoques estructurados de calidad de datos
+
+Idea clave:
+**La calidad de los RIPS puede mejorarse mediante metodologías estructuradas de detección de errores**
 
 ---
 
 ## Morbilidad visual usando RIPS
 
-📄 Título:
+Título:
 Morbilidad visual y ocular en Colombia basada en RIPS
 
-🔗 [https://saludvisual.lasalle.edu.co/article/view/1536](https://saludvisual.lasalle.edu.co/article/view/1536)
+[https://saludvisual.lasalle.edu.co/article/view/1536](https://saludvisual.lasalle.edu.co/article/view/1536)
 
-👉 Qué demuestra:
+Qué demuestra:
 
-* los RIPS se utilizan para estudios epidemiológicos
-* permiten analizar enfermedades y características de la población
-* son útiles para generar información en salud
+* Los RIPS se utilizan para estudios epidemiológicos
+* Permiten analizar enfermedades y características de la población
+* Son útiles para generar información en salud
 
-👉 Qué te aporta:
-✔ evidencia del uso real de los RIPS en investigación
-✔ justifica el valor de estos datos para análisis epidemiológico
+Qué te aporta:
 
-📌 Idea clave:
-👉 **los RIPS son una fuente útil para analizar la morbilidad en la población**
+* Evidencia del uso real de los RIPS en investigación
+* Justifica el valor de estos datos para análisis epidemiológico
+
+Idea clave:
+**Los RIPS son una fuente útil para analizar la morbilidad en la población**
 
 ---
 
 ## Uso de SISPRO y RIPS en investigación en salud
 
-📄 Título:
+Título:
 Uso de SISPRO y bases de datos en salud en Colombia
 
-🔗 (el texto que enviaste corresponde al abstract, no hay link explícito)
-
-👉 Qué demuestra:
-
 * Colombia tiene un sistema robusto de información en salud (SISPRO)
+* Los RIPS son la base más utilizada para investigación
+* Permiten analizar:
 
-* los RIPS son la base más utilizada para investigación
+  * Enfermedades
+  * Costos
+  * Uso de servicios
 
-* permiten analizar:
+Pero:
 
-  * enfermedades
-  * costos
-  * uso de servicios
+* La calidad de datos es una limitación importante
 
-* pero:
+Qué te aporta:
 
-  * la calidad de datos es una limitación importante
+* Contexto nacional del sistema de datos en salud
+* Evidencia del valor de los RIPS
+* Soporte directo del problema de calidad de datos
 
-👉 Qué te aporta:
-✔ contexto nacional del sistema de datos en salud
-✔ evidencia del valor de los RIPS
-✔ soporte directo del problema de calidad de datos
-
-📌 Idea clave:
-👉 **los RIPS son clave para investigación en salud en Colombia, pero su calidad limita su aprovechamiento**
-
-
-
-
+Idea clave:
+**Los RIPS son clave para investigación en salud en Colombia, pero su calidad limita su aprovechamiento**
