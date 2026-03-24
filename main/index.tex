@@ -403,11 +403,9 @@ Adicionalmente, la comparación con el proceso manual actual permitirá evaluar 
 % ============================================================
 \section{Plan de Trabajo y Cronograma}
 
-Describe las fases y actividades del proyecto. Puedes insertar aquí una
-tabla o diagrama de Gantt como figura (ver instrucciones en el
-Capítulo~3 para insertar imágenes).
+El proyecto se desarrollará en un período de catorce semanas, comprendido entre el 16 de febrero y el 29 de mayo de 2026. Las actividades se estructuran en tres fases que corresponden a los objetivos específicos del proyecto: diseño del proceso de trazabilidad, definición de criterios técnicos estandarizados e implementación de los mecanismos de validación.
 
-[Inserta aquí la tabla de actividades con fechas y responsables]
+La siguiente tabla describe las actividades previstas, sus responsables y el período de ejecución estimado.
 
 \newpage
 
@@ -418,25 +416,26 @@ Capítulo~3 para insertar imágenes).
 \section{Resultados Esperados e Impacto}
 
 \subsection{Productos o Entregables Esperados}
-
+Con la ejecución de este proyecto, se entregarán los siguientes productos técnicos y documentales
 \begin{itemize}
-  \item Primer entregable esperado.
-  \item Segundo entregable esperado.
+  \item \textbf{Registro de trazabilidad del proceso de limpieza:} Se generará un registro estructurado que documente las decisiones tomadas durante cada etapa del proceso de limpieza de datos. Este registro incluirá información sobre los criterios aplicados, los registros modificados o eliminados, y las justificaciones técnicas asociadas a cada transformación realizada sobre los datos de morbilidad.
+  \item \textbf{Documento de criterios técnicos estandarizados para la limpieza de datos:} Se elaborará un documento que establezca de manera formal los lineamientos técnicos para la selección, tratamiento y normalización de los datos de morbilidad codificados bajo la clasificación CIE-10. Este documento definirá reglas para el manejo de valores faltantes, eliminación de duplicados, validación de códigos diagnósticos y criterios de selección entre diagnósticos principales y secundarios.
+  \item \textbf{Proceso de limpieza implementado con mecanismos de validación:} Como entregable técnico central del proyecto, se desarrollará un proceso de limpieza de datos implementado en Python mediante Jupyter Notebook, que incorpore métricas de calidad orientadas a evaluar la consistencia, completitud y confiabilidad de los datos procesados. Este proceso permitirá comparar los resultados obtenidos con el método de limpieza manual actual, documentando las diferencias identificadas.
+  \item \textbf{Base de Datos de Morbilidad Estandarizada:} Un conjunto de datos depurado y validado correspondiente al periodo de enero a marzo de 2025, listo para su análisis epidemiológico.
 \end{itemize}
 
 \subsection{Beneficios para la Institución, Comunidad o Industria}
 
-Describe el impacto positivo que tendrá el proyecto al concluirse.
+La implementación del proceso propuesto representa beneficios concretos para el Hospital Susana López de Valencia.
 
-\newpage
+A nivel operativo, el proceso estructurado reduce la dependencia de criterios individuales en la limpieza de datos, facilitando el trabajo del personal encargado del análisis de morbilidad y disminuyendo el tiempo invertido en decisiones no documentadas durante la depuración de la información.
+
+A nivel de calidad de la información, la estandarización y validación de los datos procesados contribuye a mejorar la confiabilidad de los reportes mensuales de morbilidad, reduciendo inconsistencias que actualmente pueden afectar la representatividad de los diagnósticos analizados, especialmente en lo relacionado con los diagnósticos secundarios.
+
+A nivel estratégico, el fortalecimiento del proceso de limpieza de datos contribuye directamente a la calidad del perfil epidemiológico institucional anual, proporcionando una base de información más sólida para la toma de decisiones clínicas y administrativas dentro de la institución. Adicionalmente, el proceso desarrollado puede servir como referente metodológico para otras instituciones de salud que enfrenten problemáticas similares en el manejo de datos clínicos.
 
 
-% ============================================================
-%  CAPÍTULO 12 – CRONOGRAMA DE IMPLEMENTACIÓN
-% ============================================================
-\section{Cronograma de Implementación}
 
-[Inserta aquí el diagrama de Gantt u otra representación gráfica]
 
 \newpage
 
